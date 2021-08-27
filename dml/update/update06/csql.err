@@ -1,0 +1,286 @@
+
+Time: 08/25/21 08:42:47.939 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 46084 }
+
+Time: 08/25/21 08:42:48.196 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-test-case/dml/update/update06/update06db_dwb
+
+Time: 08/25/21 08:42:48.199 - DEBUG *** file /home/joohok/cubrid/src/transaction/log_manager.c, line 1070
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-test-case/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-test-case/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 08/25/21 08:42:48.554 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-test-case/dml/update/update06/update06db_lgar_t
+
+Time: 08/25/21 08:42:48.555 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-test-case/dml/update/update06/update06db_lgar_t
+
+Time: 08/25/21 08:42:48.558 - DEBUG *** file /home/joohok/cubrid/src/transaction/log_manager.c, line 1505
+log_initialize_internal: end of log initializaton, append_lsa = (113|2664) 
+
+Time: 08/25/21 08:42:48.588 - NOTIFICATION *** file /home/joohok/cubrid/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 08/25/21 08:42:48.588 - DEBUG *** file /home/joohok/cubrid/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 08/25/21 08:42:48.588 - NOTIFICATION *** file /home/joohok/cubrid/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 08/25/21 08:42:48.588 - DEBUG *** file /home/joohok/cubrid/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 08/25/21 08:42:48.588 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 715
+creating partition cache
+
+Time: 08/25/21 08:42:48.588 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 08/25/21 08:42:48.594 - NOTIFICATION *** file /home/joohok/cubrid/src/storage/statistics_sr.c, line 166  CODE = -1115, Tran = 1, EID = 5
+Started to update statistics (class "update06", oid : 0|202|5).
+
+Time: 08/25/21 08:42:48.594 - NOTIFICATION *** file /home/joohok/cubrid/src/storage/statistics_sr.c, line 321  CODE = -1116, Tran = 1, EID = 6
+Finished to update statistics (class "update06", oid : 0|202|5, error code : 0).
+
+Time: 08/25/21 08:42:48.596 - DEBUG *** file /home/joohok/cubrid/src/transaction/log_manager.c, line 4710
+done time : 1629848568
+Time: 08/25/21 08:42:48.596 - DEBUG *** file /home/joohok/cubrid/src/storage/page_buffer.c, line 10020
+flushing page 0|193 to disk without logging.
+
+Time: 08/25/21 08:42:48.596 - DEBUG *** file /home/joohok/cubrid/src/storage/page_buffer.c, line 10020
+flushing page 0|1409 to disk without logging.
+
+Time: 08/25/21 08:42:48.596 - DEBUG *** file /home/joohok/cubrid/src/storage/page_buffer.c, line 10020
+flushing page 0|1537 to disk without logging.
+
+Time: 08/25/21 08:42:48.645 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-test-case/dml/update/update06/update06db_dwb
+
+Time: 08/25/21 08:42:48.646 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 7
+Server status is DOWN.
+
+Time: 08/25/21 08:42:48.646 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 08/25/21 08:42:48.672 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.672 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.672 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.672 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.672 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.672 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.672 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.684 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.684 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.684 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.684 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.685 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.685 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.685 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.696 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.696 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.696 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.696 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.696 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.696 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.696 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.707 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.708 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.708 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.708 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.708 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.708 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.708 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.719 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.719 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.719 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.719 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.719 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.719 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.719 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.730 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.730 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.730 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.741 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.741 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.741 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.741 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.741 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.741 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.741 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.753 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.753 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.753 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.753 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.753 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.753 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.753 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.764 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.764 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.764 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.764 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.764 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.764 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.764 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.775 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.775 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.775 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/25/21 08:42:48.787 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/25/21 08:42:48.787 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/25/21 08:42:48.787 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:42:48.787 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/25/21 08:42:48.787 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/25/21 08:42:48.787 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/25/21 08:42:48.787 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191

@@ -1,0 +1,12 @@
+
+Time: 08/25/21 08:44:45.408 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'tabl01db@localhost'
+
+Time: 08/25/21 08:44:45.408 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:44:45.408 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 46656) connected to database server 'tabl01db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:44:45.409 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db tabl01db user dba password (null) program csql login joohok host JoohoK2 pid 46656 }

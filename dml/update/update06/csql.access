@@ -1,0 +1,6 @@
+
+Time: 08/25/21 08:42:48.588 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 46084) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+

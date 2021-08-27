@@ -1,0 +1,45 @@
+
+Time: 08/25/21 08:41:01.459 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update05db user dba password (null) program csql login joohok host JoohoK2 pid 45812 }
+
+Time: 08/25/21 08:41:01.584 - ERROR *** file /home/joohok/cubrid/src/storage/file_io.c, line 1339 ERROR CODE = -11, Tran = -1, EID = 1
+Unable to mount disk volume "/home/joohok/cdc-test-case/dml/update/update05/update05db_lgat". The database "/home/joohok/cdc-test-case/dml/update/update05/update05db", to which the disk volume belongs, is in use by user joohok on process 45583 of host JoohoK2 since Wed Aug 25 08:41:00 2021.
+
+Time: 08/25/21 08:41:01.584 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 2793 ERROR CODE = -113, Tran = -1, EID = 2
+Unable to restart/initialize the database server. Unable to mount disk volume "/home/joohok/cdc-test-case/dml/update/update05/update05db_lgat". The database "/home/joohok/cdc-test-case/dml/update/update05/update05db", to which the disk volume belongs, is in use by user joohok on process 45583 of host JoohoK2 since Wed Aug 25 08:41:00 2021.
+
+Time: 08/25/21 08:41:01.584 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is DOWN.
+
+Time: 08/25/21 08:41:01.584 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 08/25/21 08:41:01.605 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update05db user dba password (null) program csql login joohok host JoohoK2 pid 45892 }
+
+Time: 08/25/21 08:41:01.705 - ERROR *** file /home/joohok/cubrid/src/storage/file_io.c, line 1339 ERROR CODE = -11, Tran = -1, EID = 1
+Unable to mount disk volume "/home/joohok/cdc-test-case/dml/update/update05/update05db_lgat". The database "/home/joohok/cdc-test-case/dml/update/update05/update05db", to which the disk volume belongs, is in use by user joohok on process 45583 of host JoohoK2 since Wed Aug 25 08:41:00 2021.
+
+Time: 08/25/21 08:41:01.705 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 2793 ERROR CODE = -113, Tran = -1, EID = 2
+Unable to restart/initialize the database server. Unable to mount disk volume "/home/joohok/cdc-test-case/dml/update/update05/update05db_lgat". The database "/home/joohok/cdc-test-case/dml/update/update05/update05db", to which the disk volume belongs, is in use by user joohok on process 45583 of host JoohoK2 since Wed Aug 25 08:41:00 2021.
+
+Time: 08/25/21 08:41:01.705 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is DOWN.
+
+Time: 08/25/21 08:41:01.705 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 08/25/21 08:41:01.728 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update05db user dba password (null) program csql login joohok host JoohoK2 pid 45972 }
+
+Time: 08/25/21 08:41:01.832 - ERROR *** file /home/joohok/cubrid/src/storage/file_io.c, line 1339 ERROR CODE = -11, Tran = -1, EID = 1
+Unable to mount disk volume "/home/joohok/cdc-test-case/dml/update/update05/update05db_lgat". The database "/home/joohok/cdc-test-case/dml/update/update05/update05db", to which the disk volume belongs, is in use by user joohok on process 45583 of host JoohoK2 since Wed Aug 25 08:41:00 2021.
+
+Time: 08/25/21 08:41:01.832 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 2793 ERROR CODE = -113, Tran = -1, EID = 2
+Unable to restart/initialize the database server. Unable to mount disk volume "/home/joohok/cdc-test-case/dml/update/update05/update05db_lgat". The database "/home/joohok/cdc-test-case/dml/update/update05/update05db", to which the disk volume belongs, is in use by user joohok on process 45583 of host JoohoK2 since Wed Aug 25 08:41:00 2021.
+
+Time: 08/25/21 08:41:01.832 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is DOWN.
+
+Time: 08/25/21 08:41:01.832 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 750
+deleting partition cache

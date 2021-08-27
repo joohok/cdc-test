@@ -1,0 +1,188 @@
+
+Time: 08/26/21 13:08:41.502 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:08:41.503 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:08:41.503 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 35248) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:08:41.503 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 35248 }
+
+Time: 08/26/21 13:08:41.527 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:08:41.527 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:08:41.527 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 35249) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:08:41.527 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 35249 }
+
+Time: 08/26/21 13:08:41.534 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/26/21 13:08:41.534 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 907
+css_vector_send: retry called for 219264
+
+Time: 08/26/21 13:46:24.445 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:46:24.445 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:46:24.445 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63400) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:46:24.446 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 63400 }
+
+Time: 08/26/21 13:46:24.472 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:46:24.472 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:46:24.472 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63401) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:46:24.473 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 63401 }
+
+Time: 08/26/21 13:46:24.479 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/26/21 13:46:24.480 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 907
+css_vector_send: retry called for 219264
+
+Time: 08/26/21 13:47:24.459 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:47:24.459 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:47:24.459 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63678) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:47:24.460 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 63678 }
+
+Time: 08/26/21 13:47:24.484 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:47:24.484 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:47:24.485 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63679) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:47:24.485 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 63679 }
+
+Time: 08/26/21 13:47:24.492 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/26/21 13:47:24.492 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 907
+css_vector_send: retry called for 219264
+
+Time: 08/26/21 13:49:47.949 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:49:47.949 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:49:47.949 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 64005) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:49:47.950 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 64005 }
+
+Time: 08/26/21 13:49:47.974 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:49:47.975 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:49:47.975 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 64006) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:49:47.975 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 64006 }
+
+Time: 08/26/21 13:49:47.981 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/26/21 13:49:47.981 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 907
+css_vector_send: retry called for 219264
+
+Time: 08/26/21 13:52:53.117 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:52:53.117 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:52:53.118 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 64264) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:52:53.118 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 64264 }
+
+Time: 08/26/21 13:52:53.142 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:52:53.142 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:52:53.143 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 64265) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:52:53.143 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 64265 }
+
+Time: 08/26/21 13:52:53.150 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/26/21 13:52:53.150 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 907
+css_vector_send: retry called for 219264
+
+Time: 08/26/21 13:54:36.051 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:54:36.051 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:54:36.051 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 64286) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:54:36.052 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 64286 }
+
+Time: 08/26/21 13:54:36.058 - SYNTAX ERROR *** file /home/joohok/cubrid/src/parser/query_result.c, line 377 ERROR CODE = -494, Tran = 1, EID = 2
+Semantic: before '  (c char(255000))'
+Class insert05 already exists. create class insert05 ( c char(255000) )  reuse_oid 
+
+Time: 08/26/21 13:54:36.058 - SYNTAX ERROR *** file /home/joohok/cubrid/src/compat/db_vdb.c, line 967 ERROR CODE = -492, Tran = 1, EID = 3
+before '  (c char(255000))'
+Class insert05 already exists.
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/26/21 13:54:36.069 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert05db@localhost'
+
+Time: 08/26/21 13:54:36.069 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/26/21 13:54:36.070 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 64287) connected to database server 'insert05db' on the host 'localhost' (port 1523).
+
+Time: 08/26/21 13:54:36.070 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert05db user dba password (null) program csql login joohok host JoohoK2 pid 64287 }
+
+Time: 08/26/21 13:54:36.076 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

@@ -1,0 +1,615 @@
+
+Time: 08/24/21 13:56:22.106 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 13:56:22.106 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 13:56:22.106 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 72782) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 13:56:22.107 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 72782 }
+
+Time: 08/24/21 13:56:22.134 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 13:56:22.134 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 13:56:22.134 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 72783) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 13:56:22.134 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 72783 }
+
+Time: 08/24/21 13:56:22.140 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 13:56:22.152 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 13:56:22.152 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 13:56:22.152 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 72784) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 13:56:22.152 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 72784 }
+
+Time: 08/24/21 13:56:22.158 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 13:56:22.169 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 13:56:22.169 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 13:56:22.169 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 72785) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 13:56:22.170 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 72785 }
+
+Time: 08/24/21 13:56:22.175 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 13:56:22.186 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 13:56:22.186 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 13:56:22.187 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 72786) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 13:56:22.187 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 72786 }
+
+Time: 08/24/21 13:56:22.193 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 13:56:22.203 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 13:56:22.204 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 13:56:22.204 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 72787) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 13:56:22.204 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 72787 }
+
+Time: 08/24/21 13:56:22.210 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:01:04.871 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:01:04.871 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:01:04.872 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 100785) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:01:04.872 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 100785 }
+
+Time: 08/24/21 14:01:04.902 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:01:04.902 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:01:04.902 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 100786) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:01:04.902 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 100786 }
+
+Time: 08/24/21 14:01:04.909 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:01:04.922 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:01:04.922 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:01:04.922 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 100787) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:01:04.922 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 100787 }
+
+Time: 08/24/21 14:01:04.929 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:01:04.941 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:01:04.941 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:01:04.941 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 100788) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:01:04.941 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 100788 }
+
+Time: 08/24/21 14:01:04.947 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:01:04.959 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:01:04.959 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:01:04.960 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 100789) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:01:04.960 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 100789 }
+
+Time: 08/24/21 14:01:04.966 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:01:04.978 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:01:04.978 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:01:04.978 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 100790) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:01:04.979 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 100790 }
+
+Time: 08/24/21 14:01:04.985 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:05:14.980 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'demodb@localhost'
+
+Time: 08/24/21 14:05:14.981 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:05:14.981 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101557) connected to database server 'demodb' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:05:14.981 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db demodb user dba password (null) program csql login joohok host JoohoK2 pid 101557 }
+
+Time: 08/24/21 14:05:23.269 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'demodb@localhost'
+
+Time: 08/24/21 14:05:23.269 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:05:23.269 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101558) connected to database server 'demodb' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:05:23.269 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db demodb user dba password (null) program csql login joohok host JoohoK2 pid 101558 }
+
+Time: 08/24/21 14:05:23.276 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:07:22.890 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'demodb@localhost'
+
+Time: 08/24/21 14:07:22.890 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:07:22.890 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101665) connected to database server 'demodb' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:07:22.890 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db demodb user dba password (null) program csql login joohok host JoohoK2 pid 101665 }
+
+Time: 08/24/21 14:07:22.897 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:07:27.901 - DEBUG *** file /home/joohok/cubrid/src/connection/tcp.c, line 1480
+The css_peer_alive() is calling.
+Time: 08/24/21 14:07:32.908 - DEBUG *** file /home/joohok/cubrid/src/connection/tcp.c, line 1480
+The css_peer_alive() is calling.
+Time: 08/24/21 14:07:37.912 - DEBUG *** file /home/joohok/cubrid/src/connection/tcp.c, line 1480
+The css_peer_alive() is calling.
+Time: 08/24/21 14:07:42.920 - DEBUG *** file /home/joohok/cubrid/src/connection/tcp.c, line 1480
+The css_peer_alive() is calling.
+Time: 08/24/21 14:07:47.922 - DEBUG *** file /home/joohok/cubrid/src/connection/tcp.c, line 1480
+The css_peer_alive() is calling.
+Time: 08/24/21 14:09:06.633 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:09:06.633 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:09:06.633 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101936) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:09:06.634 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 101936 }
+
+Time: 08/24/21 14:09:06.660 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:09:06.660 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:09:06.660 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101937) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:09:06.660 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 101937 }
+
+Time: 08/24/21 14:09:06.666 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:09:06.676 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:09:06.676 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:09:06.676 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101938) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:09:06.677 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 101938 }
+
+Time: 08/24/21 14:09:06.682 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:09:06.692 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:09:06.692 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:09:06.692 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101939) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:09:06.692 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 101939 }
+
+Time: 08/24/21 14:09:06.698 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:09:06.707 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:09:06.708 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:09:06.708 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101940) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:09:06.708 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 101940 }
+
+Time: 08/24/21 14:09:06.713 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:09:06.723 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:09:06.723 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:09:06.723 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 101941) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:09:06.723 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 101941 }
+
+Time: 08/24/21 14:09:06.729 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:13:39.661 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:13:39.661 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:13:39.661 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130164) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:13:39.661 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130164 }
+
+Time: 08/24/21 14:13:39.668 - SYNTAX ERROR *** file /home/joohok/cubrid/src/parser/query_result.c, line 377 ERROR CODE = -494, Tran = 1, EID = 2
+Semantic: before '  (id int not null primary key);'
+Class api03 already exists. create class api03 ( id integer not null , primary key (id) ...
+
+Time: 08/24/21 14:13:39.668 - SYNTAX ERROR *** file /home/joohok/cubrid/src/compat/db_vdb.c, line 967 ERROR CODE = -492, Tran = 1, EID = 3
+before '  (id int not null primary key);'
+Class api03 already exists.
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/24/21 14:13:39.680 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:13:39.680 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:13:39.680 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130165) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:13:39.681 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130165 }
+
+Time: 08/24/21 14:13:39.686 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:13:39.687 - ERROR *** file Unknown from server, line -1 ERROR CODE = -670, Tran = 1, EID = 2
+Operation would have caused one or more unique constraint violations. INDEX pk_api03_id(B+tree: 0|3520|3521) ON CLASS api03(CLASS_OID: 0|202|5). key: 0(OID: 0|3585|6).
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/24/21 14:13:39.697 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:13:39.697 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:13:39.697 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130166) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:13:39.697 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130166 }
+
+Time: 08/24/21 14:13:39.703 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:13:39.703 - ERROR *** file Unknown from server, line -1 ERROR CODE = -670, Tran = 1, EID = 2
+Operation would have caused one or more unique constraint violations. INDEX pk_api03_id(B+tree: 0|3520|3521) ON CLASS api03(CLASS_OID: 0|202|5). key: 1(OID: 0|3585|6).
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/24/21 14:13:39.713 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:13:39.713 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:13:39.713 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130167) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:13:39.713 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130167 }
+
+Time: 08/24/21 14:13:39.719 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:13:39.720 - ERROR *** file Unknown from server, line -1 ERROR CODE = -670, Tran = 1, EID = 2
+Operation would have caused one or more unique constraint violations. INDEX pk_api03_id(B+tree: 0|3520|3521) ON CLASS api03(CLASS_OID: 0|202|5). key: 2(OID: 0|3585|6).
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/24/21 14:13:39.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:13:39.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:13:39.730 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130168) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:13:39.730 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130168 }
+
+Time: 08/24/21 14:13:39.735 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:13:39.736 - ERROR *** file Unknown from server, line -1 ERROR CODE = -670, Tran = 1, EID = 2
+Operation would have caused one or more unique constraint violations. INDEX pk_api03_id(B+tree: 0|3520|3521) ON CLASS api03(CLASS_OID: 0|202|5). key: 3(OID: 0|3585|6).
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/24/21 14:13:39.746 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:13:39.746 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:13:39.746 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130169) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:13:39.746 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130169 }
+
+Time: 08/24/21 14:13:39.752 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:13:39.752 - ERROR *** file Unknown from server, line -1 ERROR CODE = -670, Tran = 1, EID = 2
+Operation would have caused one or more unique constraint violations. INDEX pk_api03_id(B+tree: 0|3520|3521) ON CLASS api03(CLASS_OID: 0|202|5). key: 4(OID: 0|3585|6).
+
+*** The previous error message is the last one. ***
+
+
+Time: 08/24/21 14:18:05.643 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:18:05.643 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:18:05.643 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130745) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:18:05.643 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130745 }
+
+Time: 08/24/21 14:18:05.675 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:18:05.675 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:18:05.675 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130746) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:18:05.675 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130746 }
+
+Time: 08/24/21 14:18:05.682 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:18:05.695 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:18:05.695 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:18:05.695 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130747) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:18:05.696 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130747 }
+
+Time: 08/24/21 14:18:05.702 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:18:05.715 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:18:05.715 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:18:05.715 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130748) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:18:05.716 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130748 }
+
+Time: 08/24/21 14:18:05.722 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:18:05.735 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:18:05.735 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:18:05.735 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130749) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:18:05.735 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130749 }
+
+Time: 08/24/21 14:18:05.742 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/24/21 14:18:05.754 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/24/21 14:18:05.754 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/24/21 14:18:05.754 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 130750) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/24/21 14:18:05.755 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 130750 }
+
+Time: 08/24/21 14:18:05.761 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/25/21 08:32:30.841 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/25/21 08:32:30.842 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:32:30.842 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 17390) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:32:30.842 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 17390 }
+
+Time: 08/25/21 08:32:30.868 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/25/21 08:32:30.868 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:32:30.868 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 17391) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:32:30.869 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 17391 }
+
+Time: 08/25/21 08:32:30.875 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/25/21 08:32:30.885 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/25/21 08:32:30.885 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:32:30.885 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 17392) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:32:30.886 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 17392 }
+
+Time: 08/25/21 08:32:30.891 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/25/21 08:32:30.901 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/25/21 08:32:30.902 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:32:30.902 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 17393) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:32:30.902 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 17393 }
+
+Time: 08/25/21 08:32:30.908 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/25/21 08:32:30.918 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/25/21 08:32:30.918 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:32:30.918 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 17394) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:32:30.918 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 17394 }
+
+Time: 08/25/21 08:32:30.924 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/25/21 08:32:30.934 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api03db@localhost'
+
+Time: 08/25/21 08:32:30.934 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/25/21 08:32:30.934 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 17395) connected to database server 'api03db' on the host 'localhost' (port 1523).
+
+Time: 08/25/21 08:32:30.934 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api03db user dba password (null) program csql login joohok host JoohoK2 pid 17395 }
+
+Time: 08/25/21 08:32:30.940 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

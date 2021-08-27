@@ -1,0 +1,934 @@
+cubrid_log_extract ; recv_data_size : 32 , total_length = 32 
+=== LOG_ITEM ===
+transaction_id: 2
+user          : DBA
+data_item_type: 2
+
+	=== DATA_ITEM ===
+	dcl_type          : 0
+	timestamp         : 1629950920
+
+cubrid_log_extract ; recv_data_size : 152 , total_length = 152 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950920
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 0
+
+	=== DATA_ITEM ===
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 2
+
+	=== DATA_ITEM ===
+	dcl_type          : 0
+	timestamp         : 1629950921
+
+[ERROR] insert05.c:69 -10
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950920
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 0
+
+	=== DATA_ITEM ===
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 2
+
+	=== DATA_ITEM ===
+	dcl_type          : 0
+	timestamp         : 1629950921
+
+[ERROR] insert05.c:69 -10
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950920
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 0
+
+	=== DATA_ITEM ===
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 2
+
+	=== DATA_ITEM ===
+	dcl_type          : 0
+	timestamp         : 1629950921
+
+[ERROR] insert05.c:69 -10
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950920
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 0
+
+	=== DATA_ITEM ===
+=== LOG_ITEM ===
+transaction_id: 5
+user          : DBA
+data_item_type: 2
+
+	=== DATA_ITEM ===
+	dcl_type          : 0
+	timestamp         : 1629950921
+
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950922
+cubrid_log_extract ; recv_data_size : 1608 , total_length = 1608 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950923
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950924
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950925
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950926
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950927
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950929
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950930
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950931
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950932
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950933
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950934
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950935
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950936
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950945
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950946
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950947
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950948
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950949
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950950
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950951
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950952
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950953
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950954
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950955
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950956
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950957
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950958
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950959
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950960
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950961
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950962
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950963
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950964
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950965
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950966
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950967
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950968
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950969
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950970
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950971
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950972
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950973
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950974
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950975
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950976
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950977
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950978
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950979
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629950980
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951402
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951408
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951411
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951412
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951415
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951417
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951420
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951422
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951559
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951560
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951564
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951566
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951567
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951569
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951572
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951574
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629951973
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952028
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952029
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952030
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952031
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952032
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952033
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952034
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952035
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952036
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952037
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952038
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952039
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952040
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952041
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952042
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952043
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952044
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952045
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952046
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952047
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952048
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952049
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952050
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952051
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952052
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952053
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952054
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952055
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952056
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952057
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952058
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952059
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952060
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952061
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952062
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952063
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952064
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952065
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952066
+cubrid_log_extract ; recv_data_size : 48 , total_length = 48 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952067
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952068
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952069
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952070
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952071
+cubrid_log_extract ; recv_data_size : 24 , total_length = 24 
+=== LOG_ITEM ===
+transaction_id: 0
+user          : (null)
+data_item_type: 3
+
+	=== DATA_ITEM ===
+	timestamp         : 1629952072
+DML COUNT : 0
+INSERT COUNT : 0
+[SUCCESS] insert05.c
