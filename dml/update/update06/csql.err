@@ -284,3 +284,2129 @@ Failed to connect to database server, 'update06db', on the following host(s): lo
 
 Time: 08/25/21 08:42:48.787 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
 boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.377 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 124483 }
+
+Time: 08/30/21 15:41:09.503 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 08/30/21 15:41:09.505 - DEBUG *** file /home/joohok/cubrid/src/transaction/log_manager.c, line 1070
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 08/30/21 15:41:09.801 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 08/30/21 15:41:09.811 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 08/30/21 15:41:09.813 - DEBUG *** file /home/joohok/cubrid/src/transaction/log_manager.c, line 1505
+log_initialize_internal: end of log initializaton, append_lsa = (115|16152) 
+
+Time: 08/30/21 15:41:09.843 - NOTIFICATION *** file /home/joohok/cubrid/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 08/30/21 15:41:09.843 - DEBUG *** file /home/joohok/cubrid/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 08/30/21 15:41:09.843 - NOTIFICATION *** file /home/joohok/cubrid/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 08/30/21 15:41:09.843 - DEBUG *** file /home/joohok/cubrid/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 08/30/21 15:41:09.843 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 715
+creating partition cache
+
+Time: 08/30/21 15:41:09.844 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 08/30/21 15:41:09.850 - NOTIFICATION *** file /home/joohok/cubrid/src/storage/statistics_sr.c, line 166  CODE = -1115, Tran = 1, EID = 5
+Started to update statistics (class "update06", oid : 0|202|5).
+
+Time: 08/30/21 15:41:09.850 - NOTIFICATION *** file /home/joohok/cubrid/src/storage/statistics_sr.c, line 321  CODE = -1116, Tran = 1, EID = 6
+Finished to update statistics (class "update06", oid : 0|202|5, error code : 0).
+
+Time: 08/30/21 15:41:09.854 - DEBUG *** file /home/joohok/cubrid/src/transaction/log_manager.c, line 4710
+done time : 1630305669
+Time: 08/30/21 15:41:09.856 - DEBUG *** file /home/joohok/cubrid/src/storage/page_buffer.c, line 10020
+flushing page 0|193 to disk without logging.
+
+Time: 08/30/21 15:41:09.856 - DEBUG *** file /home/joohok/cubrid/src/storage/page_buffer.c, line 10020
+flushing page 0|1409 to disk without logging.
+
+Time: 08/30/21 15:41:09.856 - DEBUG *** file /home/joohok/cubrid/src/storage/page_buffer.c, line 10020
+flushing page 0|1537 to disk without logging.
+
+Time: 08/30/21 15:41:09.902 - DEBUG *** file /home/joohok/cubrid/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 08/30/21 15:41:09.903 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 7
+Server status is DOWN.
+
+Time: 08/30/21 15:41:09.903 - DEBUG *** file /home/joohok/cubrid/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 08/30/21 15:41:09.925 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.925 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.925 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.925 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.925 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.925 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.925 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.937 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.937 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.937 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.937 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.937 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.937 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.937 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.949 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.949 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.949 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.949 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.949 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.949 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.949 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.960 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.960 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.960 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.960 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.960 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.960 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.960 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.971 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.971 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.971 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.971 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.971 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.971 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.971 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.983 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.983 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.983 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.983 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.983 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.983 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.983 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:09.994 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:09.994 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:09.994 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:09.994 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:09.994 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:09.994 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:09.994 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:10.005 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:10.005 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:10.005 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:10.005 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:10.005 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:10.005 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:10.005 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:10.016 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:10.016 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:10.016 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:10.016 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:10.016 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:10.016 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:10.016 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:10.027 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:10.028 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:10.028 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:10.028 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:10.028 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:10.028 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:10.028 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 08/30/21 15:41:10.039 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 08/30/21 15:41:10.039 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 08/30/21 15:41:10.039 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:41:10.039 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 08/30/21 15:41:10.039 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 08/30/21 15:41:10.039 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 08/30/21 15:41:10.039 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.253 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 181546 }
+
+Time: 09/06/21 18:56:32.370 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 18:56:32.372 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1047
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 18:56:32.642 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 18:56:32.643 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 18:56:32.646 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1482
+log_initialize_internal: end of log initializaton, append_lsa = (115|16152) 
+
+Time: 09/06/21 18:56:32.669 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 18:56:32.670 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 18:56:32.670 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 18:56:32.670 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 18:56:32.670 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 18:56:32.670 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 18:56:32.676 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 166  CODE = -1115, Tran = 1, EID = 5
+Started to update statistics (class "update06", oid : 0|202|5).
+
+Time: 09/06/21 18:56:32.676 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 321  CODE = -1116, Tran = 1, EID = 6
+Finished to update statistics (class "update06", oid : 0|202|5, error code : 0).
+
+Time: 09/06/21 18:56:32.679 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|193 to disk without logging.
+
+Time: 09/06/21 18:56:32.679 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1409 to disk without logging.
+
+Time: 09/06/21 18:56:32.679 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1537 to disk without logging.
+
+Time: 09/06/21 18:56:32.735 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 18:56:32.735 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 7
+Server status is DOWN.
+
+Time: 09/06/21 18:56:32.735 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 18:56:32.757 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.757 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.757 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.757 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.757 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.757 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.757 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.767 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.767 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.767 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.767 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.767 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.767 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.767 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.777 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.777 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.777 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.777 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.777 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.777 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.777 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.786 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.787 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.787 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.787 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.787 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.787 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.787 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.796 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.796 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.796 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.796 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.796 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.796 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.796 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.806 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.806 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.806 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.806 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.806 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.806 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.806 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.815 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.815 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.815 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.815 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.815 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.815 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.815 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.826 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.826 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.826 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.826 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.826 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.826 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.826 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.836 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.837 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.837 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.837 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.837 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.837 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.837 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.846 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.846 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.846 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.846 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.846 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.846 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.846 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 18:56:32.856 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 18:56:32.856 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 18:56:32.856 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:56:32.856 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 18:56:32.856 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 18:56:32.856 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 18:56:32.856 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:45.725 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188309 }
+
+Time: 09/06/21 20:07:45.836 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:07:45.838 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:07:46.124 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:07:46.134 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:07:46.138 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (115|16080) 
+
+Time: 09/06/21 20:07:46.163 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:07:46.163 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:07:46.164 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:07:46.164 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:07:46.164 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:07:46.164 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:07:46.176 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 166  CODE = -1115, Tran = 1, EID = 5
+Started to update statistics (class "update06", oid : 0|202|5).
+
+Time: 09/06/21 20:07:46.176 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 321  CODE = -1116, Tran = 1, EID = 6
+Finished to update statistics (class "update06", oid : 0|202|5, error code : 0).
+
+Time: 09/06/21 20:07:46.209 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|193 to disk without logging.
+
+Time: 09/06/21 20:07:46.209 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1409 to disk without logging.
+
+Time: 09/06/21 20:07:46.209 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1537 to disk without logging.
+
+Time: 09/06/21 20:07:46.255 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:07:46.256 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 7
+Server status is DOWN.
+
+Time: 09/06/21 20:07:46.256 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:07:46.278 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.279 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.279 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.279 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.281 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.281 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.281 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.292 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.292 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.292 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.292 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.292 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.292 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.292 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.302 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.302 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.302 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.302 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.303 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.303 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.303 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.313 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.313 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.313 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.313 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.313 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.313 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.313 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.323 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.323 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.323 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.323 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.323 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.323 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.323 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.333 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.333 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.333 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.333 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.333 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.333 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.333 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.343 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.343 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.343 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.343 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.343 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.343 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.343 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.353 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.353 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.353 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.353 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.353 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.353 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.353 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.364 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.364 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.364 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.364 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.364 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.364 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.364 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.374 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.374 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.374 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.374 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.374 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.374 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.374 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:07:46.384 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'update06db@localhost'
+
+Time: 09/06/21 20:07:46.384 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/06/21 20:07:46.384 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 20:07:46.384 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "update06db" on "localhost".
+
+Time: 09/06/21 20:07:46.384 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/06/21 20:07:46.384 - ERROR *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'update06db', on the following host(s): localhost
+
+Time: 09/06/21 20:07:46.384 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/06/21 20:08:27.886 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188566 }
+
+Time: 09/06/21 20:08:28.005 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:28.006 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:28.270 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:28.271 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:28.273 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (115|16080) 
+
+Time: 09/06/21 20:08:28.295 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:28.295 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:28.295 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:28.295 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:28.295 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:28.295 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:28.301 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 166  CODE = -1115, Tran = 1, EID = 5
+Started to update statistics (class "update06", oid : 0|202|5).
+
+Time: 09/06/21 20:08:28.301 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 321  CODE = -1116, Tran = 1, EID = 6
+Finished to update statistics (class "update06", oid : 0|202|5, error code : 0).
+
+Time: 09/06/21 20:08:28.304 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|193 to disk without logging.
+
+Time: 09/06/21 20:08:28.304 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1409 to disk without logging.
+
+Time: 09/06/21 20:08:28.304 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1537 to disk without logging.
+
+Time: 09/06/21 20:08:28.354 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:28.355 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 7
+Server status is DOWN.
+
+Time: 09/06/21 20:08:28.355 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:28.378 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188567 }
+
+Time: 09/06/21 20:08:28.493 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:28.495 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:28.845 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:28.846 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:28.848 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (116|9304) 
+
+Time: 09/06/21 20:08:28.878 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:28.878 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:28.879 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:28.879 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:28.879 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:28.879 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:28.888 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:28.946 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:28.947 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:28.947 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:28.969 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188568 }
+
+Time: 09/06/21 20:08:29.091 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:29.094 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:29.383 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:29.384 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:29.386 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (117|2160) 
+
+Time: 09/06/21 20:08:29.408 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:29.408 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:29.409 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:29.409 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:29.409 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:29.409 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:29.414 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:29.470 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:29.470 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:29.470 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:29.495 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188569 }
+
+Time: 09/06/21 20:08:29.611 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:29.613 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:29.970 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:29.971 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:29.974 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (117|10440) 
+
+Time: 09/06/21 20:08:30.008 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:30.008 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:30.008 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:30.008 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:30.008 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:30.008 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:30.015 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:30.072 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:30.073 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:30.073 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:30.099 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188570 }
+
+Time: 09/06/21 20:08:30.229 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:30.231 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:30.619 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:30.620 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:30.623 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (118|2352) 
+
+Time: 09/06/21 20:08:30.656 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:30.656 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:30.657 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:30.657 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:30.657 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:30.657 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:30.663 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:30.728 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:30.729 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:30.729 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:30.754 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188571 }
+
+Time: 09/06/21 20:08:30.888 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:30.890 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:31.271 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:31.272 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:31.275 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (118|11040) 
+
+Time: 09/06/21 20:08:31.299 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:31.299 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:31.299 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:31.299 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:31.299 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:31.299 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:31.305 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:31.365 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:31.366 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:31.366 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:31.392 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188572 }
+
+Time: 09/06/21 20:08:31.520 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:31.522 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:31.855 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:31.856 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:31.859 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (119|2960) 
+
+Time: 09/06/21 20:08:31.886 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:31.886 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:31.886 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:31.886 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:31.886 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:31.886 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:31.892 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:31.941 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:31.942 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:31.942 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:31.963 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188573 }
+
+Time: 09/06/21 20:08:32.072 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:32.074 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:32.334 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:32.335 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:32.338 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (119|11240) 
+
+Time: 09/06/21 20:08:32.357 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:32.357 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:32.358 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:32.358 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:32.358 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:32.358 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:32.363 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:32.411 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:32.411 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:32.411 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:32.433 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188574 }
+
+Time: 09/06/21 20:08:32.538 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:32.540 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:32.857 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:32.857 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:32.860 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (120|3160) 
+
+Time: 09/06/21 20:08:32.887 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:32.887 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:32.888 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:32.888 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:32.888 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:32.888 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:32.893 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:32.944 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:32.944 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:32.944 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:32.965 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188575 }
+
+Time: 09/06/21 20:08:33.076 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:33.078 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:33.394 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:33.395 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:33.398 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (120|11848) 
+
+Time: 09/06/21 20:08:33.425 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:33.425 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:33.425 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:33.425 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:33.425 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:33.425 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:33.431 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:33.481 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:33.482 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:33.482 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:33.502 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188576 }
+
+Time: 09/06/21 20:08:33.611 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:33.613 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:33.929 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:33.930 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:33.933 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (121|3792) 
+
+Time: 09/06/21 20:08:33.960 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:33.960 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:33.960 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:33.960 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:33.960 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:33.960 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:33.966 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:34.016 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:34.016 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:34.016 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:08:34.037 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188577 }
+
+Time: 09/06/21 20:08:34.146 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:34.148 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:08:34.463 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:34.464 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:08:34.466 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (121|12072) 
+
+Time: 09/06/21 20:08:34.494 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:08:34.494 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:08:34.494 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:08:34.494 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:08:34.494 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:08:34.494 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:08:34.499 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:08:34.561 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:08:34.561 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:08:34.561 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:03.221 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188698 }
+
+Time: 09/06/21 20:10:03.336 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:03.338 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:03.602 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:03.603 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:03.605 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (115|15896) 
+
+Time: 09/06/21 20:10:03.628 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:03.628 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:03.628 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:03.628 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:03.628 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:03.628 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:03.634 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 166  CODE = -1115, Tran = 1, EID = 5
+Started to update statistics (class "update06", oid : 0|202|5).
+
+Time: 09/06/21 20:10:03.634 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/storage/statistics_sr.c, line 321  CODE = -1116, Tran = 1, EID = 6
+Finished to update statistics (class "update06", oid : 0|202|5, error code : 0).
+
+Time: 09/06/21 20:10:03.637 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|193 to disk without logging.
+
+Time: 09/06/21 20:10:03.637 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1409 to disk without logging.
+
+Time: 09/06/21 20:10:03.637 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/page_buffer.c, line 10020
+flushing page 0|1537 to disk without logging.
+
+Time: 09/06/21 20:10:03.691 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:03.691 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 7
+Server status is DOWN.
+
+Time: 09/06/21 20:10:03.691 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:03.716 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188699 }
+
+Time: 09/06/21 20:10:03.831 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:03.833 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:04.096 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:04.097 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:04.100 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (116|9120) 
+
+Time: 09/06/21 20:10:04.122 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:04.122 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:04.123 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:04.123 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:04.123 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:04.123 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:04.128 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:04.184 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:04.185 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:04.185 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:04.209 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188700 }
+
+Time: 09/06/21 20:10:04.325 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:04.327 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:04.591 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:04.592 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:04.594 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (117|1984) 
+
+Time: 09/06/21 20:10:04.616 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:04.617 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:04.617 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:04.617 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:04.617 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:04.617 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:04.623 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:04.678 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:04.679 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:04.679 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:04.704 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188701 }
+
+Time: 09/06/21 20:10:04.819 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:04.821 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:05.086 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:05.087 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:05.089 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (117|10264) 
+
+Time: 09/06/21 20:10:05.111 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:05.111 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:05.112 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:05.112 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:05.112 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:05.112 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:05.117 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:05.173 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:05.174 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:05.174 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:05.198 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188702 }
+
+Time: 09/06/21 20:10:05.314 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:05.316 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:05.580 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:05.581 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:05.583 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (118|2176) 
+
+Time: 09/06/21 20:10:05.605 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:05.605 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:05.606 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:05.606 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:05.606 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:05.606 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:05.612 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:05.667 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:05.667 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:05.668 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:05.692 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188703 }
+
+Time: 09/06/21 20:10:05.808 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:05.810 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:06.073 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:06.074 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:06.077 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (118|10864) 
+
+Time: 09/06/21 20:10:06.099 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:06.099 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:06.099 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:06.099 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:06.099 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:06.099 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:06.105 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:06.161 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:06.161 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:06.161 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:06.186 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188704 }
+
+Time: 09/06/21 20:10:06.302 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:06.303 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:06.567 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:06.568 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:06.571 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (119|2808) 
+
+Time: 09/06/21 20:10:06.593 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:06.593 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:06.594 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:06.594 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:06.594 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:06.594 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:06.599 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:06.655 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:06.655 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:06.655 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:06.680 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188705 }
+
+Time: 09/06/21 20:10:06.796 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:06.797 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:07.061 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:07.062 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:07.065 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (119|11088) 
+
+Time: 09/06/21 20:10:07.087 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:07.087 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:07.087 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:07.087 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:07.088 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:07.088 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:07.093 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:07.149 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:07.149 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:07.149 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:07.174 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188706 }
+
+Time: 09/06/21 20:10:07.290 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:07.292 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:07.555 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:07.556 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:07.559 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (120|3016) 
+
+Time: 09/06/21 20:10:07.581 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:07.581 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:07.582 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:07.582 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:07.582 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:07.582 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:07.587 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:07.643 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:07.644 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:07.644 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:07.668 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188707 }
+
+Time: 09/06/21 20:10:07.784 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:07.786 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:08.050 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:08.051 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:08.053 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (120|11704) 
+
+Time: 09/06/21 20:10:08.076 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:08.076 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:08.076 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:08.076 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:08.076 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:08.076 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:08.082 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:08.137 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:08.138 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:08.138 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:08.162 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188708 }
+
+Time: 09/06/21 20:10:08.278 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:08.280 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:08.543 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:08.544 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:08.547 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (121|3632) 
+
+Time: 09/06/21 20:10:08.569 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:08.569 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:08.569 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:08.569 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:08.570 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:08.570 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:08.575 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:08.631 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:08.631 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:08.631 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache
+
+Time: 09/06/21 20:10:08.656 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db update06db user dba password (null) program csql login joohok host JoohoK2 pid 188709 }
+
+Time: 09/06/21 20:10:08.781 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:08.783 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1049
+LOG INITIALIZE
+	db_fullname = /home/joohok/cdc-tests/dml/update/update06/update06db 
+	logpath = /home/joohok/cdc-tests/dml/update/update06 
+	prefix_logname = update06db 
+	ismedia_crash = 0 
+
+Time: 09/06/21 20:10:09.073 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:09.074 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2213
+Created volume /home/joohok/cdc-tests/dml/update/update06/update06db_lgar_t
+
+Time: 09/06/21 20:10:09.077 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/log_manager.c, line 1484
+log_initialize_internal: end of log initializaton, append_lsa = (121|11912) 
+
+Time: 09/06/21 20:10:09.102 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 986  CODE = -1190, Tran = -1, EID = 1
+Stand-alone vacuum execution is started.
+
+Time: 09/06/21 20:10:09.102 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 987
+Stand-alone vacuum start.
+
+Time: 09/06/21 20:10:09.102 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1079  CODE = -1191, Tran = -1, EID = 2
+Stand-alone vacuum execution is ended.
+
+Time: 09/06/21 20:10:09.102 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/vacuum.c, line 1080
+Stand-alone vacuum end.
+
+Time: 09/06/21 20:10:09.102 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 715
+creating partition cache
+
+Time: 09/06/21 20:10:09.102 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = -1, EID = 3
+Server status is UP.
+
+Time: 09/06/21 20:10:09.113 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/query_manager.c, line 1167
+TDE: qmgr_process_query(): includes_tde_class = 0
+
+Time: 09/06/21 20:10:09.195 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/storage/file_io.c, line 2791
+Destroyed volume /home/joohok/cdc-tests/dml/update/update06/update06db_dwb
+
+Time: 09/06/21 20:10:09.195 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 234  CODE = -973, Tran = 1, EID = 5
+Server status is DOWN.
+
+Time: 09/06/21 20:10:09.195 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/query/partition.c, line 750
+deleting partition cache

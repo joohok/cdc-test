@@ -27,16 +27,16 @@ sleep .5
 
 if [ `grep "DML SUCCESS" ${filename}.result |wc -l` -eq $count ]
 then
-	echo 'PASS01 '$filename'' > $CDC_TEST/result
+	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL01 '$filename'' > $CDC_TEST/result
+	echo 'FAIL01 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "ERROR" ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS03 '$filename'' > $CDC_TEST/result
+	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL03 '$filename'' > $CDC_TEST/result
+	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
 cubrid server stop $db 

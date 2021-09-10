@@ -13,7 +13,7 @@ main (int argc, char *argv[])
   char *dbname = argv[3];
 
   time_t start_time = atoi (argv[4]);
-  uint64_t classoid = atoi (argv[5]);
+  uint64_t classoid = atol (argv[5]);
 
   uint64_t next_lsa = 0;
 
@@ -49,22 +49,20 @@ main (int argc, char *argv[])
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-/*
+
   if (cubrid_log_set_extraction_table (&classoid, num_class) != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-*/
-  /*
-  if (cubrid_log_set_all_in_cond (1) != CUBRID_LOG_SUCCESS)
+
+  if (cubrid_log_set_all_in_cond (0) != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-*/
 
-  if (cubrid_log_connect_server (host, port, dbname, "", "") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "DBA", "") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -76,7 +74,7 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  for (i = 0;i<100; i++)
+  for (i = 0;i<5; i++)
     {
       ret = cubrid_log_extract (&next_lsa, &log_item_list, &list_size);
       if (ret != CUBRID_LOG_SUCCESS

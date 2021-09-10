@@ -20,26 +20,27 @@ csql -u dba $db -c  "$statement"
 csql -u dba $db -c  "$statement2" 
 
 ./${filename} localhost 1523 $db 0 &> ${filename}.result
+#./${filename} localhost 1523 $db 0 
 
 if [ `grep "DML SUCCESS" ${filename}.result |wc -l` -eq 1 ]
 then
-	echo 'PASS01 '$filename'' > $CDC_TEST/result
+	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL01 '$filename'' > $CDC_TEST/result
+	echo 'FAIL01 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "$change_cnt" ${filename}.result |wc -l` -eq 1 ]
+if [ `grep "num_changed_column: 3" ${filename}.result |wc -l` -eq 1 ]
 then
-	echo 'PASS02 '$filename'' > $CDC_TEST/result
+	echo 'PASS02 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL02 '$filename'' > $CDC_TEST/result
+	echo 'FAIL02 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "ERROR" ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS03 '$filename'' > $CDC_TEST/result
+	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL03 '$filename'' > $CDC_TEST/result
+	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
 cubrid server stop $db 

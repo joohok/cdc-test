@@ -4,6 +4,7 @@ set -x
 db=serial04db
 filename=serial04
 statement='CREATE TABLE serial04 (id int auto_increment)'
+statement2='SELECT SERIAL_NEXT_VALUE(serial04_ai_id, 1'
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
@@ -21,23 +22,23 @@ csql -u dba $db -c "insert into serial04 values (NULL)"
 
 if [ `grep "DDL SUCCESS" ${filename}.result |wc -l` -eq 1 ]
 then
-	echo 'PASS01 '$filename'' > $CDC_TEST/result
+	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL01 '$filename'' > $CDC_TEST/result
+	echo 'FAIL01 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "$statement2" ${filename}.result |wc -l` -eq 1 ]
 then
-	echo 'PASS02 '$filename'' > $CDC_TEST/result
+	echo 'PASS02 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL02 '$filename'' > $CDC_TEST/result
+	echo 'FAIL02 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "FAIL" ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS03 '$filename'' > $CDC_TEST/result
+	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL03 '$filename'' > $CDC_TEST/result
+	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
 cubrid server stop $db 

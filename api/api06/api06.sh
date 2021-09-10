@@ -15,29 +15,30 @@ cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
 cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 #cubrid_createdb $db2 
-
+#echo "cdc_logging_debug=1" >> $CUBRID/conf/cubrid.conf 
 echo "supplemental_log=1" >> $CUBRID/conf/cubrid.conf
 
 cubrid server start $db 
 
-sh api06-insert.sh 
+sh api06.sql 
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 1629775990 > ${filename}.result
+#./${filename} localhost 1523 $db 1629775990 > ${filename}.result
+./${filename} localhost 1523 $db 1629775990 
 
-if [ `grep 'cond_column' ${filename}.result |wc -l` -e 4 ]
+if [ `grep 'cond_column' ${filename}.result |wc -l` -eq 4 ]
 then
-	echo 'PASS '$filename'' > $CDC_TEST/result
+	echo 'PASS '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL '$filename'' > $CDC_TEST/result
+	echo 'FAIL '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS '$filename'' > $CDC_TEST/result
+	echo 'PASS '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL '$filename'' > $CDC_TEST/result
+	echo 'FAIL '$filename'' >> $CDC_TEST/result
 fi
 
 

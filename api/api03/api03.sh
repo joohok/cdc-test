@@ -26,26 +26,23 @@ for (( i=0;i<5; i++)); do
   csql -u dba $db -c "insert into api03 value ($i)" &> /dev/null
 done
 
-
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 1629775990 > ${filename}.result
+./${filename} localhost 1523 $db 0 > ${filename}.result
 
 if [ `grep 'DML SUCCESS' ${filename}.result |wc -l` -eq 5 ]
 then
-	echo 'PASS '$filename'' > $CDC_TEST/result
+	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL '$filename'' > $CDC_TEST/result
+	echo 'FAIL01 '$filename'' > $CDC_TEST/result
 fi
 
 if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS '$filename'' > $CDC_TEST/result
+	echo 'PASS02 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL '$filename'' > $CDC_TEST/result
+	echo 'FAIL02 '$filename'' >> $CDC_TEST/result
 fi
-
-
 
 cubrid server stop $db 
 
@@ -59,3 +56,4 @@ rm -rf lob/
 rm $filename
 rm ${filename}.result
 rm cubrid_tracelog.err
+#rm core*

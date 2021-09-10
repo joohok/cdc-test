@@ -15,10 +15,6 @@ cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 cubrid server start $db 
 cubrid broker start 
 
-javac OID_Sample.java
-java OID_Sample > classoid.txt
-classoid=`cat classoid.txt`
-
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
 csql -u dba $db -c  "$statement" 
@@ -27,27 +23,31 @@ do
   csql -u dba $db -c  "$statement2" 
 done
 
+javac OID_Sample.java
+java OID_Sample > classoid.txt
+classoid=`cat classoid.txt`
+
 ./${filename} localhost 1523 $db 0 &> ${filename}.result
 
 if [ `grep "DML SUCCESS" ${filename}.result |wc -l` -eq ${count} ]
 then
-	echo 'PASS01 '$filename'' > $CDC_TEST/result
+	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL01 '$filename'' > $CDC_TEST/result
+	echo 'FAIL01 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "$classoid" ${filename}.result |wc -l` -eq ${count} ]
 then
-	echo 'PASS02 '$filename'' > $CDC_TEST/result
+	echo 'PASS02 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL02 '$filename'' > $CDC_TEST/result
+	echo 'FAIL02 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "ERROR" ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS03 '$filename'' > $CDC_TEST/result
+	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL03 '$filename'' > $CDC_TEST/result
+	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
 cubrid server stop $db 

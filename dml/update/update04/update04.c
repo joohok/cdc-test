@@ -26,7 +26,7 @@ main (int argc, char *argv[])
 
   int dml_count = 0;
   int insert_count = 0;
-  int interval = 100;
+  int interval = 1;
 
   if (argc != 5)
     {
@@ -60,7 +60,7 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  for (i = 0; i < 50; i++)
+  for (i = 0; i < 5; i++)
     {
       if (cubrid_log_extract (&next_lsa, &log_item_list, &list_size) != CUBRID_LOG_SUCCESS)
 	{
@@ -94,6 +94,8 @@ main (int argc, char *argv[])
 	      printf ("\t=== DATA_ITEM ===\n");
 	      switch (log_item->data_item_type)
 		{
+                case 0:
+                  break;
 		case 1:
 		  printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
 		  printf ("\tclassoid          : %ld\n", data_item->dml.classoid);

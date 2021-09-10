@@ -26,20 +26,20 @@ sh api05-insert.sh
 #grep classoid by jdbc 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 1629775990 > ${filename}.result
+./${filename} localhost 1523 $db 0 &> ${filename}.result
 
-if [ `grep -E 'DBA|PUBLIC' ${filename}.result |wc -l` -e 0 ]
+if [ `grep -E 'DBA|PUBLIC' ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS '$filename'' > $CDC_TEST/result
+	echo 'PASS1 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL '$filename'' > $CDC_TEST/result
+	echo 'FAIL1 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS '$filename'' > $CDC_TEST/result
+	echo 'PASS2 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL '$filename'' > $CDC_TEST/result
+	echo 'FAIL2 '$filename'' >> $CDC_TEST/result
 fi
 
 
@@ -56,3 +56,4 @@ rm -rf lob/
 rm $filename
 rm ${filename}.result
 rm cubrid_tracelog.err
+rm core*

@@ -1,87 +1,174 @@
 
-Time: 08/25/21 08:34:03.216 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+Time: 09/06/21 18:48:42.542 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
 trying to connect 'insert01db@localhost'
 
-Time: 08/25/21 08:34:03.216 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+Time: 09/06/21 18:48:42.542 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
 ping server with handshake
 
-Time: 08/25/21 08:34:03.216 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
-Program 'csql' (pid 18774) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+Time: 09/06/21 18:48:42.543 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 178890) connected to database server 'insert01db' on the host 'localhost' (port 1523).
 
-Time: 08/25/21 08:34:03.217 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
-boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 18774 }
+Time: 09/06/21 18:48:42.543 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 178890 }
 
-Time: 08/25/21 08:34:03.240 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+Time: 09/06/21 18:48:42.569 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
 trying to connect 'insert01db@localhost'
 
-Time: 08/25/21 08:34:03.240 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+Time: 09/06/21 18:48:42.569 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
 ping server with handshake
 
-Time: 08/25/21 08:34:03.240 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
-Program 'csql' (pid 18775) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+Time: 09/06/21 18:48:42.569 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 178891) connected to database server 'insert01db' on the host 'localhost' (port 1523).
 
-Time: 08/25/21 08:34:03.241 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
-boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 18775 }
+Time: 09/06/21 18:48:42.570 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 178891 }
 
-Time: 08/25/21 08:34:03.246 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+Time: 09/06/21 18:48:42.576 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
 
-Time: 08/25/21 08:34:03.256 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+Time: 09/06/21 18:48:42.588 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
 trying to connect 'insert01db@localhost'
 
-Time: 08/25/21 08:34:03.256 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+Time: 09/06/21 18:48:42.588 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
 ping server with handshake
 
-Time: 08/25/21 08:34:03.257 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
-Program 'csql' (pid 18776) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+Time: 09/06/21 18:48:42.588 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 178892) connected to database server 'insert01db' on the host 'localhost' (port 1523).
 
-Time: 08/25/21 08:34:03.257 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
-boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 18776 }
+Time: 09/06/21 18:48:42.588 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 178892 }
 
-Time: 08/25/21 08:34:03.262 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+Time: 09/06/21 18:48:42.594 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
 
-Time: 08/25/21 08:34:03.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+Time: 09/06/21 18:48:42.605 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
 trying to connect 'insert01db@localhost'
 
-Time: 08/25/21 08:34:03.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+Time: 09/06/21 18:48:42.605 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
 ping server with handshake
 
-Time: 08/25/21 08:34:03.272 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
-Program 'csql' (pid 18777) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+Time: 09/06/21 18:48:42.605 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 178893) connected to database server 'insert01db' on the host 'localhost' (port 1523).
 
-Time: 08/25/21 08:34:03.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
-boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 18777 }
+Time: 09/06/21 18:48:42.605 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 178893 }
 
-Time: 08/25/21 08:34:03.277 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+Time: 09/06/21 18:48:42.611 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
 
-Time: 08/25/21 08:34:03.287 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+Time: 09/06/21 18:48:42.622 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
 trying to connect 'insert01db@localhost'
 
-Time: 08/25/21 08:34:03.287 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+Time: 09/06/21 18:48:42.622 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
 ping server with handshake
 
-Time: 08/25/21 08:34:03.287 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
-Program 'csql' (pid 18778) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+Time: 09/06/21 18:48:42.622 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 178894) connected to database server 'insert01db' on the host 'localhost' (port 1523).
 
-Time: 08/25/21 08:34:03.288 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
-boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 18778 }
+Time: 09/06/21 18:48:42.622 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 178894 }
 
-Time: 08/25/21 08:34:03.293 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+Time: 09/06/21 18:48:42.628 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
 
-Time: 08/25/21 08:34:03.303 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+Time: 09/06/21 18:48:42.638 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
 trying to connect 'insert01db@localhost'
 
-Time: 08/25/21 08:34:03.303 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+Time: 09/06/21 18:48:42.639 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
 ping server with handshake
 
-Time: 08/25/21 08:34:03.303 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
-Program 'csql' (pid 18779) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+Time: 09/06/21 18:48:42.639 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 178895) connected to database server 'insert01db' on the host 'localhost' (port 1523).
 
-Time: 08/25/21 08:34:03.303 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
-boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 18779 }
+Time: 09/06/21 18:48:42.639 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 178895 }
 
-Time: 08/25/21 08:34:03.308 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+Time: 09/06/21 18:48:42.645 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/06/21 18:59:45.475 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert01db@localhost'
+
+Time: 09/06/21 18:59:45.475 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:59:45.475 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 183797) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+
+Time: 09/06/21 18:59:45.476 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 183797 }
+
+Time: 09/06/21 18:59:45.503 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert01db@localhost'
+
+Time: 09/06/21 18:59:45.503 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:59:45.503 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 183798) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+
+Time: 09/06/21 18:59:45.504 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 183798 }
+
+Time: 09/06/21 18:59:45.511 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/06/21 18:59:45.523 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert01db@localhost'
+
+Time: 09/06/21 18:59:45.523 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:59:45.523 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 183799) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+
+Time: 09/06/21 18:59:45.524 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 183799 }
+
+Time: 09/06/21 18:59:45.530 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/06/21 18:59:45.542 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert01db@localhost'
+
+Time: 09/06/21 18:59:45.542 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:59:45.543 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 183800) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+
+Time: 09/06/21 18:59:45.543 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 183800 }
+
+Time: 09/06/21 18:59:45.549 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/06/21 18:59:45.561 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert01db@localhost'
+
+Time: 09/06/21 18:59:45.561 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:59:45.562 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 183801) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+
+Time: 09/06/21 18:59:45.562 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 183801 }
+
+Time: 09/06/21 18:59:45.568 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/06/21 18:59:45.580 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1692
+trying to connect 'insert01db@localhost'
+
+Time: 09/06/21 18:59:45.580 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/06/21 18:59:45.581 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 183802) connected to database server 'insert01db' on the host 'localhost' (port 1523).
+
+Time: 09/06/21 18:59:45.581 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db insert01db user dba password (null) program csql login joohok host JoohoK2 pid 183802 }
+
+Time: 09/06/21 18:59:45.587 - DEBUG *** file /home/joohok/cubrid-cdc-merged/src/communication/network_interface_cl.c, line 6701
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

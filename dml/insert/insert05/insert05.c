@@ -62,7 +62,7 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  for (i = 0; i < 50; i++)
+  for (i = 0; i < 10; i++)
     {
       if ((error = cubrid_log_extract (&next_lsa, &log_item_list, &list_size)) != CUBRID_LOG_SUCCESS)
 	{

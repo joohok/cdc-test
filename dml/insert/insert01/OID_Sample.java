@@ -8,12 +8,12 @@ class OID_Sample
    public static void main (String args [])
    {
       // Making a connection
-      String url= "jdbc:cubrid:192.168.2.107:30000:api04db:public::";
+      String url= "jdbc:cubrid:192.168.2.107:30000:insert01db:public::";
       String user = "dba";
       String passwd = "";
 
       // SQL statement to get OID values
-      String sql = "SELECT class_of from _db_class where class_name='api04a' ";
+      String sql = "SELECT class_of from _db_class where class_name='insert01' ";
        
       // Declaring variables for Connection and Statement
       Connection con = null;
@@ -40,7 +40,6 @@ class OID_Sample
          rs.next();
          CUBRIDOID oid = rs.getOID(1);
          System.out.println (oid2bytes (oid.getOID()));
-         classobj = rs.getObject(1); //d
 
          con.commit(); //g
 

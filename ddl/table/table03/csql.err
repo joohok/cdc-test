@@ -22,3 +22,27 @@ Program 'csql' (pid 47171) connected to database server 'table03db' on the host 
 
 Time: 08/25/21 08:46:39.384 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
 boot_restart_client: register client { type 2 db table03db user dba password (null) program csql login joohok host JoohoK2 pid 47171 }
+
+Time: 08/30/21 15:48:31.375 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'table03db@localhost'
+
+Time: 08/30/21 15:48:31.375 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:48:31.375 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 125491) connected to database server 'table03db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 15:48:31.376 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db table03db user dba password (null) program csql login joohok host JoohoK2 pid 125491 }
+
+Time: 08/30/21 15:48:31.404 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'table03db@localhost'
+
+Time: 08/30/21 15:48:31.404 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 15:48:31.404 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 125492) connected to database server 'table03db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 15:48:31.404 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db table03db user dba password (null) program csql login joohok host JoohoK2 pid 125492 }

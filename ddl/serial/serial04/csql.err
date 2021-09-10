@@ -25,3 +25,30 @@ boot_restart_client: register client { type 2 db serial04db user dba password (n
 
 Time: 08/25/21 08:54:26.127 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 08/30/21 16:05:52.048 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'serial04db@localhost'
+
+Time: 08/30/21 16:05:52.049 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 16:05:52.049 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 127831) connected to database server 'serial04db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 16:05:52.049 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db serial04db user dba password (null) program csql login joohok host JoohoK2 pid 127831 }
+
+Time: 08/30/21 16:05:52.076 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'serial04db@localhost'
+
+Time: 08/30/21 16:05:52.077 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 16:05:52.077 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 127832) connected to database server 'serial04db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 16:05:52.077 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db serial04db user dba password (null) program csql login joohok host JoohoK2 pid 127832 }
+
+Time: 08/30/21 16:05:52.084 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6701
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

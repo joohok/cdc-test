@@ -24,23 +24,23 @@ csql -u dba $db -c  "$statement3"
 
 if [ `grep "DDL SUCCESS" ${filename}.result |wc -l` -eq 1 ]
 then
-	echo 'PASS01 '$filename'' > $CDC_TEST/result
+	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL01 '$filename'' > $CDC_TEST/result
+	echo 'FAIL01 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "$statement3" ${filename}.result |wc -l` -eq 1 ]
 then
-	echo 'PASS02 '$filename'' > $CDC_TEST/result
+	echo 'PASS02 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL02 '$filename'' > $CDC_TEST/result
+	echo 'FAIL02 '$filename'' >> $CDC_TEST/result
 fi
 
 if [ `grep "FAIL" ${filename}.result |wc -l` -eq 0 ]
 then
-	echo 'PASS03 '$filename'' > $CDC_TEST/result
+	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL03 '$filename'' > $CDC_TEST/result
+	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
 cubrid server stop $db 

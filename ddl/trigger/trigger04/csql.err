@@ -169,3 +169,45 @@ Trigger "tmp" was not found.
 
 *** The previous error message is the last one. ***
 
+
+Time: 08/30/21 16:16:46.105 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'trigger04db@localhost'
+
+Time: 08/30/21 16:16:46.106 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 16:16:46.106 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 129129) connected to database server 'trigger04db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 16:16:46.106 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db trigger04db user dba password (null) program csql login joohok host JoohoK2 pid 129129 }
+
+Time: 08/30/21 16:16:46.131 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'trigger04db@localhost'
+
+Time: 08/30/21 16:16:46.132 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 16:16:46.132 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 129130) connected to database server 'trigger04db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 16:16:46.132 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db trigger04db user dba password (null) program csql login joohok host JoohoK2 pid 129130 }
+
+Time: 08/30/21 16:16:46.151 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'trigger04db@localhost'
+
+Time: 08/30/21 16:16:46.151 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 08/30/21 16:16:46.151 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 129131) connected to database server 'trigger04db' on the host 'localhost' (port 1523).
+
+Time: 08/30/21 16:16:46.151 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db trigger04db user dba password (null) program csql login joohok host JoohoK2 pid 129131 }
+
+Time: 08/30/21 16:16:46.157 - ERROR *** file /home/joohok/cubrid/src/object/trigger_manager.c, line 4229 ERROR CODE = -503, Tran = 1, EID = 2
+Trigger "tmp" was not found.
+
+*** The previous error message is the last one. ***
+

@@ -21,6 +21,10 @@ trigger_cnt=4
 serial_cnt=5
 pocedure_cnt=2
 
+rm -rf CUBRID-11.1.0* &&
+echo -e "y\ny\ny\n" | sh ~/cdc-build/*.sh && 
+sh /home/joohok/.cubrid.sh
+
 cd $api
 
 #for [] 

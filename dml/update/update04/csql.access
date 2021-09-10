@@ -1,612 +1,2502 @@
 
-Time: 08/25/21 08:37:57.316 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37167) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:28.080 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157616) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:37:57.954 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37247) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:28.486 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157617) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:37:58.650 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37327) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:28.890 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157618) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:37:59.402 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37407) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:29.291 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157619) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:00.154 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37487) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:29.694 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157620) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:00.892 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37567) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:30.095 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157621) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:01.627 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37647) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:30.498 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157622) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:02.365 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37727) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:30.900 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157631) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:03.059 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37807) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:31.304 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157632) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:03.850 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37887) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:31.706 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157633) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:04.599 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 37967) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:32.110 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157641) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:05.348 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38047) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:32.512 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157642) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:06.094 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38127) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:32.916 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157643) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:06.828 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38207) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:33.318 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157644) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:07.582 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38287) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:33.721 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157645) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:08.351 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38367) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:34.124 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157646) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:09.094 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38447) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:34.527 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157647) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:09.837 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38527) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:34.929 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157648) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:10.521 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38607) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:35.393 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157649) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:11.249 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38687) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:35.877 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157650) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:11.976 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38767) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:36.359 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157651) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:12.713 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38847) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:36.814 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157652) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:13.384 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 38927) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:37.258 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157653) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:13.949 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39007) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:37.702 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157654) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:14.591 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39087) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:38.162 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157655) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:15.241 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39167) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:38.634 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157656) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:15.928 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39247) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:39.116 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157657) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:16.723 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39327) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:39.600 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157658) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:17.499 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39407) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:40.083 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157659) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:18.198 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39487) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:40.565 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157660) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:18.949 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39567) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:41.068 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157661) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:19.648 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39647) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:41.553 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157662) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:20.345 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39727) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:42.036 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157663) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:21.033 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39807) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:42.519 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157664) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:21.698 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39887) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:43.001 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157665) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:22.317 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 39967) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:43.485 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157666) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:22.981 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40047) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:43.967 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157667) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:23.726 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40127) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:44.451 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157668) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:24.493 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40207) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:44.934 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157669) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:25.248 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40287) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:45.417 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157670) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:25.000 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40367) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:45.902 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157671) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:26.783 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40447) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:46.377 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157672) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:27.689 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40527) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:46.795 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157673) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:28.370 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40607) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:47.242 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157674) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:29.090 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40687) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:47.732 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157675) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:29.765 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40767) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:48.234 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157676) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:30.474 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40847) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:48.716 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157677) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:31.279 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 40927) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:49.199 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157678) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:31.994 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41007) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:49.683 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157679) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:32.742 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41087) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:50.166 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157680) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:33.466 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41167) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:50.648 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157681) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:34.151 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41247) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:51.132 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157682) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:34.789 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41327) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:51.615 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157683) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:35.416 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41407) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:52.098 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157685) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:36.102 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41487) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:52.581 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157686) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:36.811 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41567) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:53.065 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157687) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:37.471 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41647) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:53.561 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157688) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:38.174 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41727) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:54.063 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157689) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:38.834 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41807) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:54.539 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157690) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:39.542 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41887) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:54.994 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157691) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:40.244 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 41967) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:55.450 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157692) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:40.941 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42047) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:55.914 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157693) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:41.604 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42127) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:56.369 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157694) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:42.223 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42207) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:56.827 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157695) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:42.888 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42287) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:57.283 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157696) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:43.554 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42367) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:57.739 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157697) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:44.229 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42447) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:58.195 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157698) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:44.917 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42527) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:58.651 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157699) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:45.571 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42607) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:59.107 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157700) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:46.233 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42687) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:58:59.726 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157701) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:46.896 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42767) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:00.182 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157702) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:47.568 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42847) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:00.628 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157703) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:48.252 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 42927) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:01.075 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157704) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:48.969 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43007) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:01.521 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157705) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:49.634 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43087) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:01.968 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157706) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:50.316 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43167) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:02.415 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157707) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:51.091 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43247) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:02.862 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157708) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:51.817 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43327) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:03.309 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157709) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:52.527 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43407) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:03.756 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157710) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:53.285 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43487) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:04.203 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157711) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:54.042 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43567) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:04.650 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157712) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:54.801 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43647) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:05.098 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157713) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:55.543 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43727) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:05.546 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157714) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:56.346 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43807) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:05.993 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157715) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:57.146 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43887) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:06.460 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157716) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:57.947 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 43967) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:06.910 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157717) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:58.745 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44047) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:07.395 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157718) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:38:59.427 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44127) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:07.879 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157719) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:00.055 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44207) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:08.363 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157720) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:00.728 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44287) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:08.783 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157721) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:01.403 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44367) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:09.198 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157722) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:02.033 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44447) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:09.632 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157723) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:02.707 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44527) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:10.111 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157724) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:03.391 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44607) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:10.589 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157725) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:04.134 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44687) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:11.087 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157726) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:04.930 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44767) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:11.567 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157727) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:05.725 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44847) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:12.044 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157728) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:06.473 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 44927) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:12.521 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157729) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:07.234 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 45007) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:12.999 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157730) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:07.923 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 45087) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:13.476 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157731) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:08.614 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 45167) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:13.953 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157732) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 
 
-Time: 08/25/21 08:39:09.348 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_sr.c, line 3322  CODE = -972, Tran = -1, EID = 4
-Program 'csql' (pid 45247) was connected from the host 'JoohoK2'. (transaction index 1)
+Time: 09/05/21 21:59:14.431 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 157733) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:45.841 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175732) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:46.366 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175733) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:46.893 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175734) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:47.428 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175735) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:47.964 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175736) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:48.501 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175737) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:49.014 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175738) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:49.497 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175739) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:20:49.968 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175740) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:15.424 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175795) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:15.925 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175796) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:16.423 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175797) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:16.921 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175798) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:17.419 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175799) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:17.866 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175800) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:18.312 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175801) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:18.757 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175802) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:19.203 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175803) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:19.649 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175804) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:20.103 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175805) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:20.597 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175806) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:21.091 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175807) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:21.584 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175808) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:22.076 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175809) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:22.569 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175810) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:23.063 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175811) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:23.555 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175812) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:24.048 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175813) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:24.541 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175814) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:25.059 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175815) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:25.593 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175816) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:26.108 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175817) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:26.598 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175818) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:27.087 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175819) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:27.576 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175820) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:28.066 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175821) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:28.556 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175822) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:29.045 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175823) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:29.513 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175824) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:29.981 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175825) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:30.450 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175826) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:30.918 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175827) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:31.386 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175828) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:31.854 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175829) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:32.327 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175830) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:32.863 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175831) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:33.393 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175832) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:33.915 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175833) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:34.437 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175834) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:34.941 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175835) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:35.430 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175836) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:35.910 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175837) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:36.370 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175838) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:36.831 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175839) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:37.290 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175840) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:37.751 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175841) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:38.211 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175842) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:38.671 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175843) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:39.131 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175844) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:39.621 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175845) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:40.118 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175846) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:40.618 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175847) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:41.116 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175848) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:41.613 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175849) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:42.115 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175850) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:42.651 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175851) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:43.185 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175852) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:43.722 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175853) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:44.256 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175854) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:44.768 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175855) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:45.303 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175856) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:46.140 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175857) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:46.675 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175858) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:47.210 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175859) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:47.744 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175860) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:48.242 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175861) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:48.740 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175862) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:49.238 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175863) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:49.751 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175864) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:50.273 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175865) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:50.793 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175866) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:51.315 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175867) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:51.836 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175868) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:52.357 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175869) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:52.878 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175870) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:53.360 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175871) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:53.847 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175872) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:54.336 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175873) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:54.793 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175874) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:55.244 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175875) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:55.694 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175876) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:56.174 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175877) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:56.666 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175878) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:57.159 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175879) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:57.651 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175880) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:58.143 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175881) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:58.636 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175882) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:59.128 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175883) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:21:59.624 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175884) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:00.145 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175885) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:00.665 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175886) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:01.171 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175887) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:01.664 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175888) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:02.157 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175889) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:02.649 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175890) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:03.114 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175891) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:03.573 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175892) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:04.035 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175893) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:04.495 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175894) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:04.957 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175895) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:22:05.417 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 175896) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:50.327 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176309) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:50.787 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176310) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:51.246 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176311) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:51.702 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176312) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:52.159 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176313) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:52.615 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176314) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:53.071 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176315) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:53.528 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176316) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:53.984 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176317) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:54.451 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176318) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:54.969 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176319) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:55.445 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176320) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:55.920 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176321) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:56.436 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176322) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:56.973 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176323) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:57.509 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176324) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:58.044 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176325) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:58.580 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176326) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:59.105 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176327) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:23:59.629 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176328) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:00.152 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176329) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:00.675 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176330) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:01.198 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176331) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:01.728 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176332) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:02.263 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176333) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:02.800 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176334) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:03.336 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176335) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:03.871 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176336) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:04.340 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176337) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:04.808 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176338) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:05.272 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176339) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:05.762 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176340) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:06.257 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176341) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:06.750 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176342) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:07.245 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176343) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:07.738 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176344) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:08.232 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176345) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:08.751 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176346) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:09.286 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176347) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:09.809 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176348) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:10.332 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176349) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:10.856 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176350) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:11.323 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176351) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:11.784 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176352) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:12.246 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176353) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:12.707 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176354) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:13.168 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176355) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:13.666 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176356) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:14.165 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176357) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:14.663 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176358) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:15.161 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176359) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:15.660 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176360) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:16.158 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176361) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:16.638 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176362) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:17.114 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176363) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:17.590 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176364) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:18.066 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176365) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:18.541 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176366) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:19.017 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176367) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:19.473 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176368) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:19.913 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176369) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:20.353 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176370) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:20.793 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176371) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:21.517 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176372) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:22.053 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176373) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:22.588 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176374) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:23.126 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176375) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:23.661 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176376) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:24.187 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176377) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:24.644 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176378) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:25.103 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176379) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:25.559 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176380) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:26.016 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176381) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:26.473 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176382) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:26.930 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176383) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:27.406 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176384) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:27.888 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176385) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:28.371 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176386) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:28.856 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176387) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:29.341 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176388) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:29.826 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176389) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:30.311 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176390) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:30.796 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176391) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:31.281 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176392) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:31.766 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176393) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:32.250 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176394) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:32.731 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176395) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:33.206 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176396) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:33.681 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176397) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:34.157 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176398) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:34.633 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176399) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:35.108 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176400) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:35.583 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176401) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:36.058 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176402) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:36.533 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176403) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:37.008 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176404) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:37.483 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176405) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:37.959 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176406) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:38.434 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176407) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:38.909 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176408) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:39.384 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176409) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 06:24:39.873 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 176410) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:41.748 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181061) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:42.223 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181062) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:42.695 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181063) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:43.167 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181064) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:43.639 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181065) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:44.113 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181066) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:44.591 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181067) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:45.127 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181068) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:45.652 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181069) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:46.192 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181070) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:46.733 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181071) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:47.272 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181072) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:47.811 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181073) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:48.350 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181074) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:48.877 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181075) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:49.418 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181076) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:49.957 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181077) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:50.497 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181078) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:51.037 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181079) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:51.577 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181080) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:52.116 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181081) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:52.656 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181082) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:53.188 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181083) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:53.674 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181084) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:54.161 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181085) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:54.661 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181086) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:55.158 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181087) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:55.655 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181088) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:56.152 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181089) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:56.649 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181090) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:57.158 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181091) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:57.656 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181092) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:58.135 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181093) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:58.624 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181094) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:59.114 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181095) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:51:59.603 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181096) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:00.093 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181097) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:00.582 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181098) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:01.059 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181099) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:01.536 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181100) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:02.013 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181101) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:02.491 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181102) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:02.969 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181103) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:03.466 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181104) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:04.005 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181105) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:04.543 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181106) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:05.071 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181107) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:05.610 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181108) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:06.149 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181109) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:06.686 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181110) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:07.223 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181111) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:07.761 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181112) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:08.233 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181113) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:08.715 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181114) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:09.214 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181115) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:09.650 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181116) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:10.095 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181117) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:10.540 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181118) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:10.984 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181119) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:11.428 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181120) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:11.873 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181121) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:12.319 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181122) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:12.763 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181123) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:13.182 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181124) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:13.619 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181125) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:14.081 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181126) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:14.540 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181127) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:14.991 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181128) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:15.442 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181129) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:15.894 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181130) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:16.345 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181131) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:16.858 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181132) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:17.398 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181133) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:17.934 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181134) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:18.471 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181135) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:18.963 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181136) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:19.403 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181137) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:19.844 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181138) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:20.285 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181139) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:20.726 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181140) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:21.167 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181141) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:21.609 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181142) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:22.052 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181143) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:22.494 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181144) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:22.986 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181145) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:23.510 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181146) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:24.034 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181147) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:24.559 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181148) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:25.083 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181149) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:25.596 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181150) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:26.086 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181151) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:26.551 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181152) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:27.027 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181153) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:27.503 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181154) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:27.977 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181155) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:28.436 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181156) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:28.895 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181157) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:29.353 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181158) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:29.811 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181159) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:30.271 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181160) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:30.731 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181161) was connected from the host 'JoohoK2'. (transaction index 1)
+
+*** The previous error message is the last one. ***
+
+
+Time: 09/06/21 18:52:31.183 - NOTIFICATION *** file /home/joohok/cubrid-cdc-merged/src/transaction/boot_sr.c, line 3320  CODE = -972, Tran = -1, EID = 4
+Program 'csql' (pid 181162) was connected from the host 'JoohoK2'. (transaction index 1)
 
 *** The previous error message is the last one. ***
 

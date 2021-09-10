@@ -26,7 +26,7 @@ main (int argc, char *argv[])
 
   int dml_count = 0;
   int insert_count = 0;
-  int interval = 100;
+  int interval = 1;
 
   if (argc != 5)
     {
@@ -41,7 +41,7 @@ main (int argc, char *argv[])
     }
 
 
-  if (cubrid_log_set_all_in_cond (1) != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_set_all_in_cond (0) != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -60,7 +60,7 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  for (i = 0; i < 50; i++)
+  for (i = 0; i < 5; i++)
     {
       if (cubrid_log_extract (&next_lsa, &log_item_list, &list_size) != CUBRID_LOG_SUCCESS)
 	{

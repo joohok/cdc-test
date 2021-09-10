@@ -24,9 +24,9 @@ gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
 if [ `grep "FAIL" api01.result |wc -l` -eq 0 ]
 then
-	echo 'PASS api01' > $CDC_TEST/result
+	echo 'PASS api01' >> $CDC_TEST/result
 else
-	echo 'FAIL api01' > $CDC_TEST/result
+	echo 'FAIL api01' >> $CDC_TEST/result
 fi
 
 cubrid server stop $db 
@@ -38,5 +38,6 @@ mv $CUBRID/conf/cubrid.conf_ori $CUBRID/conf/cubrid.conf
 
 rm -rf lob/
 
+rm core*
 rm $filename
 rm ${filename}.result
