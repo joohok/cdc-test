@@ -1,0 +1,9 @@
+	DDL STATEMENT : create view view01a as select * from view01 
+	DDL SUCCESS 
+	DDL STATEMENT : alter view view01a as select * from view01 where id=100 
+	DDL SUCCESS 
+	DDL STATEMENT : rename view view01a as view01b 
+	DDL SUCCESS 
+	DDL STATEMENT : DROP TABLE view01b; 
+	DDL SUCCESS 
+[SUCCESS] view01.c
