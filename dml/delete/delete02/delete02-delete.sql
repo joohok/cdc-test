@@ -1,0 +1,2 @@
+delete from delete02;
+

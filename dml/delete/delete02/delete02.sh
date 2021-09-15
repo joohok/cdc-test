@@ -1,8 +1,8 @@
 #!/bin/sh
 set -x
 
-db=update02db
-filename=update02
+db=delete02db
+filename=delete02
 count=1
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
@@ -15,10 +15,10 @@ cubrid broker start &&
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-csql -u dba $db -i update02-create.sql
-csql -u dba $db -i update02-insert.sql
+csql -u dba $db -i delete02-create.sql
+csql -u dba $db -i delete02-insert.sql
 
-csql -u dba $db -i update02-update.sql
+csql -u dba $db -i delete02-delete.sql
 
 javac OID_Sample.java
 java OID_Sample > classoid.txt

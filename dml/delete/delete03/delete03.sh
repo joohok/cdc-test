@@ -1,8 +1,8 @@
 #!/bin/sh
 set -x
 
-db=update02db
-filename=update02
+db=delete03db
+filename=delete03
 count=1
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
@@ -15,10 +15,10 @@ cubrid broker start &&
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-csql -u dba $db -i update02-create.sql
-csql -u dba $db -i update02-insert.sql
+csql -u dba $db -i delete03-create.sql
+csql -u dba $db -i delete03-insert.sql
 
-csql -u dba $db -i update02-update.sql
+csql -u dba $db -i delete03-delete.sql
 
 javac OID_Sample.java
 java OID_Sample > classoid.txt
@@ -45,14 +45,7 @@ fi
 
 #03. data check. 
  
-if [ `grep "num_cond_column: 1" ${filename}.result |wc -l` -eq ${count} ]
-then
-	echo 'PASS03 '$filename'' >> $CDC_TEST/result
-else
-	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
-fi
-
-if [ `grep "cond_column_index: 16" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "num_cond_column: 17" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else

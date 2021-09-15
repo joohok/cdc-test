@@ -4,17 +4,10 @@ set -x
 db=api06db
 filename=api06
 
-#is32bit=`file ${CUBRID}/bin/cubrid | grep "32-bit" | wc -l`
-
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
-#sed -i 's/data_/#data_/g' $CUBRID/conf/cubrid.conf
-
-#echo "data_buffer_size=512M" >>$CUBRID/conf/cubrid.conf
-#echo "[@$db2]" >>$CUBRID/conf/cubrid.conf
-#echo "data_buffer_size=768M" >>$CUBRID/conf/cubrid.conf
 
 cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
-#cubrid_createdb $db2 
+
 #echo "cdc_logging_debug=1" >> $CUBRID/conf/cubrid.conf 
 echo "supplemental_log=1" >> $CUBRID/conf/cubrid.conf
 
@@ -24,8 +17,8 @@ sh api06.sql
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-#./${filename} localhost 1523 $db 1629775990 > ${filename}.result
-./${filename} localhost 1523 $db 1629775990 
+./${filename} localhost 1523 $db 1629775990 > ${filename}.result
+#./${filename} localhost 1523 $db 1629775990 
 
 if [ `grep 'cond_column' ${filename}.result |wc -l` -eq 4 ]
 then
@@ -40,8 +33,6 @@ then
 else
 	echo 'FAIL '$filename'' >> $CDC_TEST/result
 fi
-
-
 
 cubrid server stop $db 
 
