@@ -32,7 +32,7 @@ main (int argc, char *argv[])
   int num_user =1;
   char *user = "JOO";
 
-  if (argc != 7)
+  if (argc != 5)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
