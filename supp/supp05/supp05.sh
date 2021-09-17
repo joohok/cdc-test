@@ -21,7 +21,7 @@ csql -u dba $db -i supp05.sql &&
 cubrid server stop $db 
 cubrid broker stop &&
 
-echo -e "0\n -1\n 1\n -1\n y\n" | cubrid diagdb ${db} -d 8 -o ${filename}.result &&
+echo -e "0\n -1\n -1\n -1\n y\n" | cubrid diagdb ${db} -d 8 -o ${filename}.result &&
 
 #01 DDL supplement check 
 if [ `grep "SUPPLEMENT TYPE = 2" ${filename}.result |wc -l` -eq 0 ]
@@ -32,7 +32,7 @@ else
 fi
 
 #02 INSERT supplement check 
-if [ `grep "SUPPLEMENT TYPE = 3" ${filename}.result |wc -l` -eq 0 ]
+if [ `grep "SUPPLEMENT TYPE = 3" ${filename}.result |wc -l` -eq 1 ]
 then
 	echo 'PASS01 '$filename'' >> $CDC_TEST/result
 else
