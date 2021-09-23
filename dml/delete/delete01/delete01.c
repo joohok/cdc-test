@@ -97,7 +97,7 @@ main (int argc, char *argv[])
                 case 0: 
                   break;
 		case 1:
-                  if (data_item->dml.dml_type == 1)
+                  if (data_item->dml.dml_type == 2)
                   {
                     printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
                     printf ("\tclassoid          : %lld\n", data_item->dml.classoid);

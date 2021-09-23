@@ -97,41 +97,16 @@ main (int argc, char *argv[])
                 case 0: 
                   break;
 		case 1:
-		  printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
-		  printf ("\tclassoid          : %lld\n", data_item->dml.classoid);
-		  printf ("\tnum_changed_column: %d\n", data_item->dml.num_changed_column);
-		  printf ("\tchanged_column_data[0]: %d\n", (int)*data_item->dml.changed_column_data[0]);
-		  printf ("\tchanged_column_data[1]: %lf\n", (float)*data_item->dml.changed_column_data[1]);
-		  printf ("\tchanged_column_data[2]: %ld\n", (double)*data_item->dml.changed_column_data[2]);
-		  printf ("\tchanged_column_data[3]: %s\n", data_item->dml.changed_column_data[3]); // char  
-		  printf ("\tchanged_column_data[4]: %s\n", data_item->dml.changed_column_data[4]); // varchar 
-		  printf ("\tchanged_column_data[5]: %s\n", data_item->dml.changed_column_data[5]); // bit 
-		  printf ("\tchanged_column_data[6]: %s\n", data_item->dml.changed_column_data[6]); // varbit 
-		  printf ("\tchanged_column_data[7]: %s\n", data_item->dml.changed_column_data[7]); // timestamp 
-		  printf ("\tchanged_column_data[8]: %s\n", data_item->dml.changed_column_data[8]); // timestamptz 
-		  printf ("\tchanged_column_data[9]: %s\n", data_item->dml.changed_column_data[9]);  // datetime 
-		  printf ("\tchanged_column_data[10]: %s\n", data_item->dml.changed_column_data[10]); // datetimetz 
-		  printf ("\tchanged_column_data[11]: %s\n", data_item->dml.changed_column_data[11]); // date
-		  printf ("\tchanged_column_data[12]: %s\n", data_item->dml.changed_column_data[12]); // time 
-		  printf ("\tchanged_column_data[13]: %s\n", data_item->dml.changed_column_data[13]); // BLOB 
-		  printf ("\tchanged_column_data[14]: %s\n", data_item->dml.changed_column_data[14]); // CLOB  
-		  printf ("\tchanged_column_data[15]: %s\n", data_item->dml.changed_column_data[15]); // numeric/decimal  
-		  printf ("\tchanged_column_data[16]: %s\n", data_item->dml.changed_column_data[16]); // enum  
-                  printf ("DML SUCCESS \n");
-		  printf ("\n");
-
 		  break;
 
 		case 2:
 		  printf ("\tdcl_type          : %d\n", data_item->dcl.dcl_type);
 		  printf ("\ttimestamp         : %ld\n", data_item->dcl.timestamp);
+                  printf ("\tDCL SUCCESS\n");
 		  printf ("\n");
-
 		  break;
 
 		case 3:
-		  printf ("\ttimestamp         : %ld\n", data_item->timer.timestamp);
-
 		  break;
 
 		default:
@@ -140,12 +115,9 @@ main (int argc, char *argv[])
 	    }
 	  log_item = log_item->next;
 	}
-      cubrid_log_clear_log_item (log_item_list);
+
       sleep (1);
     }
-
-  printf("DML COUNT : %d\n", dml_count);
-  printf("INSERT COUNT : %d\n", insert_count);
 
   cubrid_log_finalize ();
 

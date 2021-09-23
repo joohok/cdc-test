@@ -97,12 +97,12 @@ main (int argc, char *argv[])
                 case 0: 
                   break;
 		case 1:
-                  if (data_item->dml.dml_type == 1)
+                  if (data_item->dml.dml_type == 2)
                   {
                     printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
                     printf ("\tclassoid          : %lld\n", data_item->dml.classoid);
                     printf ("\tnum_cond_column: %d\n", data_item->dml.num_cond_column);
-                    pritnf ("\tcond_column_index : %d\n", data_item->dml.cond_column_index[0]);
+                    printf ("\tcond_column_index : %d\n", data_item->dml.cond_column_index[0]);
                     printf ("DML SUCCESS \n");
                     printf ("\n");
                   }

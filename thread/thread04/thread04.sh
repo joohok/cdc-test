@@ -5,7 +5,7 @@ db=insert01db
 filename=insert01
 statement='CREATE TABLE insert01 (id int)'
 statement2='INSERT INTO insert01 values (100)'
-count=100
+count=5
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 

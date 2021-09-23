@@ -1,4 +1,4 @@
-create table delete01 (
+create table insert01 (
   a int, 
   b float, 
   c double,

@@ -1,4 +1,4 @@
-insert into delete01 values (
+insert into insert01 values (
   10,
   10.1,
   10.1010,
