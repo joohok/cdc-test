@@ -14,6 +14,8 @@ main (int argc, char *argv[])
 
   time_t start_time = atoi (argv[4]);
 
+  uint64_t classoid = atol (argv[5]);
+
   uint64_t next_lsa = 0;
 
   CUBRID_LOG_ITEM *log_item_list;
@@ -29,25 +31,14 @@ main (int argc, char *argv[])
   int insert_count = 0;
   int interval = 1;
 
-  if (argc != 5)
-    {
-      printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
-      exit (-1);
-    }
+  int num_class = atoi (argv[6]);
 
-  if (cubrid_log_set_extraction_timeout (300) != CUBRID_LOG_SUCCESS)
-    {
-      printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
-      exit (-1);
-    }
-  cubrid_log_set_max_log_item (500);
-
-  if (cubrid_log_set_all_in_cond (-1) != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_set_extraction_table (NULL, num_class) != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-  
+
   cubrid_log_finalize ();
 
   printf ("[SUCCESS] %s\n", __FILE__);

@@ -1,0 +1,12 @@
+
+Start schema loading.
+Total        1 statements executed.Total        2 statements executed.Total        3 statements executed.Total        4 statements executed.       5 statements executed. Commit transaction at line 15
+Total        5 statements executed.Total        5 statements executed.
+Schema loading from oper07db_schema finished.
+Statistics for Catalog classes have been updated.
+
+
+Start object loading.
+Total 100 object(s) inserted, 0 object(s) failed.
+
+*** Closing the database ***

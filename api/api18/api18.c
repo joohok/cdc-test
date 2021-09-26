@@ -14,7 +14,10 @@ main (int argc, char *argv[])
 
   time_t start_time = atoi (argv[4]);
 
+  int max_log_item = atoi (argv[5]);
+
   uint64_t next_lsa = 0;
+  int i; 
 
   CUBRID_LOG_ITEM *log_item_list;
   CUBRID_LOG_ITEM *log_item;
@@ -22,33 +25,21 @@ main (int argc, char *argv[])
   CUBRID_DATA_ITEM *data_item;
 
   int list_size = 0;
-  int i, j, k;
+  int ret = CUBRID_LOG_SUCCESS;
 
-  int dml_count = 0;
-  int insert_count = 0;
-  int interval = 1;
-
-  if (argc != 5)
+  if (argc != 6)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-
-  if (cubrid_log_set_max_log_item (500) != CUBRID_LOG_SUCCESS)
+  
+  if (cubrid_log_set_max_log_item (max_log_item) != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-
-/*
-  if (cubrid_log_set_all_in_cond (1) != CUBRID_LOG_SUCCESS)
-    {
-      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
-      exit (-1);
-    }
-*/
-
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+ 
+  if (cubrid_log_connect_server (host, port, dbname, "", "") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -59,14 +50,28 @@ main (int argc, char *argv[])
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
- 
-  sleep (5);
 
-  if (cubrid_log_finalize() != CUBRID_LOG_SUCCESS)
+  for (i = 0; i < 5; i++)
     {
-      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
-      exit (-1);
+      ret = cubrid_log_extract (&next_lsa, &log_item_list, &list_size);
+      if (ret != CUBRID_LOG_SUCCESS
+	  && ret != CUBRID_LOG_SUCCESS_WITH_NO_LOGITEM
+	  && ret != CUBRID_LOG_EXTRACTION_TIMEOUT)
+	{
+	  printf ("[extraction error : %d\n", ret);
+	  printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
+	  exit (-1);
+	}
+      if (ret == CUBRID_LOG_SUCCESS)
+	{
+          printf ("\t%d\n", list_size);
+          
+	  sleep (1);
+	}
+      cubrid_log_clear_log_item (log_item_list);
     }
+
+  cubrid_log_finalize ();
 
   return 0;
 }

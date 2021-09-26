@@ -22,7 +22,7 @@ main (int argc, char *argv[])
   port = atoi (argv[2]);
   dbname = argv[3];
 
-  if (cubrid_log_connect_server (host, port, dbname, "dba", "") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "public", "") != CUBRID_LOG_SUCCESS)
     {
       printf ("FAIL :  %s:%d\n", __FILE__, __LINE__);
       exit (-1);

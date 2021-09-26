@@ -1,9 +1,8 @@
 #!/bin/sh
 set -x
 
-db=api03db
-filename=api03
-
+db=api17db
+filename=api17
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
@@ -15,14 +14,17 @@ cubrid server start $db
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 0 &> ${filename}.result
+./${filename} 1025 &> ${filename}.result
+./${filename} 0  &>> ${filename}.result
 
-if [ `grep 'ERROR' ${filename}.result |wc -l` -eq 1 ]
+if [ `grep 'ERROR' ${filename}.result |wc -l` -eq 2 ]
 then
-	echo 'PASS01 '$filename'' >> $CDC_TEST/result
+	echo 'PASS2 '$filename'' >> $CDC_TEST/result
 else
-	echo 'FAIL01 '$filename'' >> $CDC_TEST/result
+	echo 'FAIL2 '$filename'' >> $CDC_TEST/result
 fi
+
+
 
 cubrid server stop $db 
 

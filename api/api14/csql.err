@@ -1,0 +1,1221 @@
+
+Time: 09/27/21 05:48:03.252 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:03.252 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:03.252 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:03.252 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:03.252 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:03.252 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:03.252 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:03.263 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:03.263 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:03.264 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:03.264 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:03.264 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:03.264 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:03.264 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:03.274 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:03.274 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:03.274 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:03.274 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:03.274 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:03.274 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:03.274 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.286 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.286 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.286 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.286 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.286 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.286 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.286 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.297 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.297 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.297 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.297 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.297 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.297 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.297 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.307 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.307 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.307 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.307 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.307 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.307 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.307 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.320 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.320 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.320 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.320 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.320 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.320 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.320 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.331 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.331 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.331 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.342 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.342 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.342 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.352 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.352 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.353 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.353 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.363 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.363 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.363 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.363 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.363 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.363 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.363 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.373 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.373 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.373 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.373 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.373 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.373 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.373 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.384 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.384 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.384 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.384 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.384 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.384 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.384 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.394 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.394 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.395 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.395 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.395 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.395 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.395 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:04.405 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:04.405 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:04.405 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:04.405 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:04.405 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:04.405 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:04.405 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:36.213 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:36.213 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:36.213 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:36.213 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:36.213 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:36.213 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:36.213 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:36.224 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:36.224 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:36.224 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:36.224 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:36.224 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:36.224 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:36.224 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:36.235 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:36.235 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:36.235 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:36.236 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:36.236 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:36.236 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:36.236 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.250 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.250 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.250 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.250 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.250 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.250 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.250 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.261 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.261 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.261 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.261 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.261 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.261 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.261 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.272 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.272 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.272 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.272 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.285 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.285 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.285 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.285 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.285 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.285 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.285 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.296 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.296 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.296 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.296 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.296 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.296 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.296 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.308 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.308 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.308 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.308 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.308 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.308 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.308 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.319 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.319 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.319 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.319 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.319 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.319 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.319 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.331 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.331 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.331 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.331 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.342 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.342 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.342 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.342 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.353 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.353 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.353 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.353 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.365 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.365 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.365 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.365 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.365 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.365 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.365 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:48:37.376 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api04db@localhost'
+
+Time: 09/27/21 05:48:37.376 - DEBUG *** file /home/joohok/cubrid/src/connection/connection_support.c, line 421
+css_readn: POLLHUP Invalid argument
+Time: 09/27/21 05:48:37.376 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:48:37.376 - ERROR *** file /home/joohok/cubrid/src/communication/network_cl.c, line 3826 ERROR CODE = -191, Tran = -1, EID = 1
+Cannot connect to server "api04db" on "localhost".
+
+Time: 09/27/21 05:48:37.376 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1744
+error -191. try to connect to next host
+
+Time: 09/27/21 05:48:37.376 - ERROR *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1776 ERROR CODE = -677, Tran = -1, EID = 2
+Failed to connect to database server, 'api04db', on the following host(s): localhost
+
+Time: 09/27/21 05:48:37.376 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1126
+boot_restart_client: boot_client_initialize_css () error -191
+
+Time: 09/27/21 05:49:27.943 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:27.943 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:27.943 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91164) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:27.943 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91164 }
+
+Time: 09/27/21 05:49:27.963 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:27.963 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:27.963 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91165) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:27.963 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91165 }
+
+Time: 09/27/21 05:49:27.979 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:27.979 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:27.980 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91166) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:27.980 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91166 }
+
+Time: 09/27/21 05:49:28.997 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:28.997 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:28.997 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91168) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:28.997 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91168 }
+
+Time: 09/27/21 05:49:29.020 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.020 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.020 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91169) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.020 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91169 }
+
+Time: 09/27/21 05:49:29.041 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.041 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.042 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91170) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.042 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91170 }
+
+Time: 09/27/21 05:49:29.064 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.064 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.064 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91172) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.065 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91172 }
+
+Time: 09/27/21 05:49:29.070 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.081 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.081 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.081 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91173) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.082 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91173 }
+
+Time: 09/27/21 05:49:29.087 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.098 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.099 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.099 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91174) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.099 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91174 }
+
+Time: 09/27/21 05:49:29.105 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.116 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.116 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.116 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91175) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.116 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91175 }
+
+Time: 09/27/21 05:49:29.122 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.133 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.133 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.133 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91176) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.133 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91176 }
+
+Time: 09/27/21 05:49:29.139 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.149 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.150 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.150 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91177) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.150 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91177 }
+
+Time: 09/27/21 05:49:29.156 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.166 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.166 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.166 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91178) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.167 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91178 }
+
+Time: 09/27/21 05:49:29.172 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.183 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.183 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.183 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91179) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.183 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91179 }
+
+Time: 09/27/21 05:49:29.189 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:49:29.199 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:49:29.199 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:49:29.200 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91180) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:49:29.200 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91180 }
+
+Time: 09/27/21 05:49:29.205 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:37.582 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:37.582 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:37.582 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91755) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:37.582 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91755 }
+
+Time: 09/27/21 05:53:37.602 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:37.602 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:37.602 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91756) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:37.603 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91756 }
+
+Time: 09/27/21 05:53:37.620 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:37.620 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:37.621 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91757) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:37.621 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91757 }
+
+Time: 09/27/21 05:53:38.642 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.642 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.642 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91759) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.642 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91759 }
+
+Time: 09/27/21 05:53:38.668 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.668 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.668 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91760) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.669 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91760 }
+
+Time: 09/27/21 05:53:38.692 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.692 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.692 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91761) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.693 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91761 }
+
+Time: 09/27/21 05:53:38.718 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.718 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.718 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91763) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.719 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91763 }
+
+Time: 09/27/21 05:53:38.725 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.738 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.738 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.738 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91764) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.738 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91764 }
+
+Time: 09/27/21 05:53:38.745 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.756 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.756 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.757 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91765) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.757 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91765 }
+
+Time: 09/27/21 05:53:38.763 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.775 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91766) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.775 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91766 }
+
+Time: 09/27/21 05:53:38.782 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.794 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.794 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.794 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91767) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.794 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91767 }
+
+Time: 09/27/21 05:53:38.801 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.812 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.812 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.812 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91768) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.813 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91768 }
+
+Time: 09/27/21 05:53:38.819 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.831 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.831 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.832 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91769) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.832 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91769 }
+
+Time: 09/27/21 05:53:38.838 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.851 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.851 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.851 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91770) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.851 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91770 }
+
+Time: 09/27/21 05:53:38.857 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:53:38.868 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:53:38.868 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:53:38.869 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 91771) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:53:38.869 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 91771 }
+
+Time: 09/27/21 05:53:38.875 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:06.071 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:06.071 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:06.071 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92232) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:06.072 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92232 }
+
+Time: 09/27/21 05:54:06.090 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:06.090 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:06.090 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92233) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:06.091 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92233 }
+
+Time: 09/27/21 05:54:06.108 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:06.108 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:06.108 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92234) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:06.109 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92234 }
+
+Time: 09/27/21 05:54:07.133 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.133 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.133 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92236) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.134 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92236 }
+
+Time: 09/27/21 05:54:07.159 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.160 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.160 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92237) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.160 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92237 }
+
+Time: 09/27/21 05:54:07.182 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.183 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.183 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92238) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.183 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92238 }
+
+Time: 09/27/21 05:54:07.207 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.207 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.207 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92240) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.208 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92240 }
+
+Time: 09/27/21 05:54:07.214 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.226 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.226 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.226 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92241) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.227 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92241 }
+
+Time: 09/27/21 05:54:07.233 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.245 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.245 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.245 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92242) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.246 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92242 }
+
+Time: 09/27/21 05:54:07.252 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.263 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.263 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.264 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92243) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.264 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92243 }
+
+Time: 09/27/21 05:54:07.270 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.282 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.282 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.282 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92244) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.282 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92244 }
+
+Time: 09/27/21 05:54:07.288 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.299 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.300 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.300 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92245) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.300 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92245 }
+
+Time: 09/27/21 05:54:07.306 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.317 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.318 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.318 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92246) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.318 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92246 }
+
+Time: 09/27/21 05:54:07.324 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.336 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.336 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.336 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92247) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.336 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92247 }
+
+Time: 09/27/21 05:54:07.342 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 09/27/21 05:54:07.354 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 09/27/21 05:54:07.354 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 09/27/21 05:54:07.354 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 92248) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 09/27/21 05:54:07.354 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 92248 }
+
+Time: 09/27/21 05:54:07.360 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

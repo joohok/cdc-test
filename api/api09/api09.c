@@ -28,6 +28,7 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
+  sleep (5);
 //  cubrid_log_finalize ();
 
   printf ("[SUCCESS] %s\n", __FILE__);
