@@ -140,13 +140,13 @@ then
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "cond_column_data\[13]: file:/home/joohok/cdc-tests/dml/insert/insert01/lob/" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "cond_column_data\[13]: file:/home/joohok/cdc-tests/dml/update/update01/lob/" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "cond_column_data\[14]: file:/home/joohok/cdc-tests/dml/insert/insert01/lob/" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "cond_column_data\[14]: file:/home/joohok/cdc-tests/dml/update/update01/lob/" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
