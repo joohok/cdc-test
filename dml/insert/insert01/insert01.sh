@@ -48,7 +48,6 @@ else
 fi
 
 #03. data check. 
- 
 if [ `grep "num_changed_column: 17" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
@@ -56,21 +55,21 @@ else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[0]: 10" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[0]: 10" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[1]: 10.1" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[1]: 10.100000" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[2]: 10.101" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[2]: 10.101000" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
@@ -78,88 +77,88 @@ else
 fi
 
 
-if [ `grep "changed_column_data[3]: aa" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[3]: aa" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[4]: aaa" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[4]: aaa" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[5]: B'1'" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[5]: X'8'" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[6]: B'1010'" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[6]: X'a'" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[7]: 2021-09-13 12:30" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[7]: 2021-09-13 12:30:00" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[8]: 2021-09-13 12:30:00 +09:00" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[8]: 2021-09-13 12:30:00 +09:00" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[9]: 2021-09-13 12:30:00.000" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[9]: 2021-09-13 12:30:00.000" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[10]: 2021-09-13 12:30:00.000 +09:00" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[10]: 2021-09-13 12:30:00.000 +09:00" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[11]: 2021-09-13" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[11]: 2021-09-13" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[12]: 13:15:45" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[12]: 13:15:45" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[13]: file:/home/joohok/cdc-tests/dml/insert/insert01/lob/" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[13]: file:/home/joohok/cdc-tests/dml/insert/insert01/lob/" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[14]: file:/home/joohok/cdc-tests/dml/insert/insert01/lob/" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[14]: file:/home/joohok/cdc-tests/dml/insert/insert01/lob/" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[15]: 1010.00000" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[15]: 1010.00000" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
-if [ `grep "changed_column_data[16]: cdc" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[16]: cdc" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
@@ -183,7 +182,7 @@ mv $CUBRID/conf/cubrid.conf_ori $CUBRID/conf/cubrid.conf
 rm -rf lob/
 
 rm $filename
-rm ${filename}.result
+#rm ${filename}.result
 rm cubrid_tracelog.err
 rm classoid.txt
 
