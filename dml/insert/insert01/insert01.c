@@ -28,6 +28,10 @@ main (int argc, char *argv[])
   int insert_count = 0;
   int interval = 1;
 
+  int int_val;
+  double double_val;
+  float float_val;
+
   if (argc != 5)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
@@ -100,9 +104,12 @@ main (int argc, char *argv[])
 		  printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
 		  printf ("\tclassoid          : %lld\n", data_item->dml.classoid);
 		  printf ("\tnum_changed_column: %d\n", data_item->dml.num_changed_column);
-		  printf ("\tchanged_column_data[0]: %d\n", (int)*data_item->dml.changed_column_data[0]);
-		  printf ("\tchanged_column_data[1]: %lf\n", (float)*data_item->dml.changed_column_data[1]);
-		  printf ("\tchanged_column_data[2]: %ld\n", (double)*data_item->dml.changed_column_data[2]);
+                  memcpy (&int_val, data_item->dml.changed_column_data[0], data_item->dml.changed_column_data_len[0]);
+		  printf ("\tchanged_column_data[0]: %d\n", int_val);
+                  memcpy (&float_val, data_item->dml.changed_column_data[1], data_item->dml.changed_column_data_len[1]);
+		  printf ("\tchanged_column_data[1]: %lf\n", float_val);
+                  memcpy (&double_val, data_item->dml.changed_column_data[2], data_item->dml.changed_column_data_len[2]);
+		  printf ("\tchanged_column_data[2]: %lf\n", double_val);
 		  printf ("\tchanged_column_data[3]: %s\n", data_item->dml.changed_column_data[3]); // char  
 		  printf ("\tchanged_column_data[4]: %s\n", data_item->dml.changed_column_data[4]); // varchar 
 		  printf ("\tchanged_column_data[5]: %s\n", data_item->dml.changed_column_data[5]); // bit 
