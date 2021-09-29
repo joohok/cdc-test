@@ -11,13 +11,15 @@ cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 #echo "cdc_logging_debug=1" >> $CUBRID/conf/cubrid.conf 
 echo "supplemental_log=1" >> $CUBRID/conf/cubrid.conf
 
+stime=`date +"%m/%d/%Y %H:%M:%S"`
+
 cubrid server start $db 
 
 sh api06.sql 
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 0 &> ${filename}.result
+./${filename} localhost 1523 $db "$stime" &> ${filename}.result
 #./${filename} localhost 1523 $db 0 
 
 if [ `grep "num_cond_column : 1" ${filename}.result |wc -l` -eq 4 ]
@@ -44,5 +46,5 @@ mv $CUBRID/conf/cubrid.conf_ori $CUBRID/conf/cubrid.conf
 rm -rf lob/
 
 rm $filename
-rm ${filename}.result
+#rm ${filename}.result
 rm cubrid_tracelog.err

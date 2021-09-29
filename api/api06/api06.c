@@ -11,8 +11,8 @@ main (int argc, char *argv[])
   char *host = argv[1];
   int port = atoi (argv[2]);
   char *dbname = argv[3];
-
-  time_t start_time = atoi (argv[4]);
+  struct tm stime;
+  time_t start_time;
 
   uint64_t next_lsa = 0;
 
@@ -28,6 +28,10 @@ main (int argc, char *argv[])
   int dml_count = 0;
   int insert_count = 0;
   int interval = 1;
+
+  strptime (argv[4], "%m/%d/%Y %H:%M:%S", &stime);
+  start_time = mktime (&stime);
+  printf ("time : %d\n", start_time);
 
   if (argc != 5)
     {
