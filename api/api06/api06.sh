@@ -17,17 +17,17 @@ sh api06.sql
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 1629775990 > ${filename}.result
-#./${filename} localhost 1523 $db 1629775990 
+./${filename} localhost 1523 $db 0 &> ${filename}.result
+#./${filename} localhost 1523 $db 0 
 
-if [ `grep 'cond_column' ${filename}.result |wc -l` -eq 4 ]
+if [ `grep "num_cond_column : 1" ${filename}.result |wc -l` -eq 4 ]
 then
 	echo 'PASS '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 0 ]
+if [ `grep 'ERROR' ${filename}.result |wc -l` -eq 0 ]
 then
 	echo 'PASS '$filename'' >> $CDC_TEST/result
 else

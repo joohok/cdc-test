@@ -31,13 +31,13 @@ main (int argc, char *argv[])
 
   if (argc != 5)
     {
-      printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
+      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
 
   if (cubrid_log_set_extraction_timeout (300) != CUBRID_LOG_SUCCESS)
     {
-      printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
+      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
   cubrid_log_set_max_log_item (500);
@@ -50,7 +50,7 @@ main (int argc, char *argv[])
 
   if (cubrid_log_connect_server (host, port, dbname, "123", "123") != CUBRID_LOG_SUCCESS)
     {
-      printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
+      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
 #if 0
@@ -60,18 +60,17 @@ main (int argc, char *argv[])
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-#endif 
+#endif
   cubrid_log_find_lsa (&start_time, &next_lsa);
-    
+
   for (i = 0; i < 10; i++)
     {
       ret = cubrid_log_extract (&next_lsa, &log_item_list, &list_size);
       if (ret != CUBRID_LOG_SUCCESS
-	  && ret != CUBRID_LOG_SUCCESS_WITH_NO_LOGITEM
-	  && ret != CUBRID_LOG_EXTRACTION_TIMEOUT)
+	  && ret != CUBRID_LOG_SUCCESS_WITH_NO_LOGITEM && ret != CUBRID_LOG_EXTRACTION_TIMEOUT)
 	{
 	  printf ("[extraction error : %d\n", ret);
-	  printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
+	  printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
 	  exit (-1);
 	}
       if (ret == CUBRID_LOG_SUCCESS)
@@ -82,19 +81,19 @@ main (int argc, char *argv[])
 	    {
 	      if (log_item->data_item_type == 1)
 		{
-                  printf ("DML SUCCESS \n");
+		  printf ("DML SUCCESS \n");
 		  dml_count++;
 		  if (log_item->data_item.dml.dml_type == 2)
 		    {
-                      printf ("num_cond_column : %d\n", log_item->data_item.dml.num_cond_column);
+		      printf ("num_cond_column : %d\n", log_item->data_item.dml.num_cond_column);
 		    }
 		}
 	      log_item = log_item->next;
 	    }
 
-          cubrid_log_clear_log_item (log_item);
+	  cubrid_log_clear_log_item (log_item);
 	}
-	  sleep (1);
+      sleep (1);
     }
   cubrid_log_finalize ();
 
