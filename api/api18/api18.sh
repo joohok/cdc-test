@@ -13,20 +13,18 @@ echo "supplemental_log=1" >> $CUBRID/conf/cubrid.conf
 cubrid server start $db 
 
 sh api18-create.sh
-for ((i=0;i<100;i++))
+for ((i=0;i<2;i++))
 do
   sh api18-insert.sh &> /dev/null 
 done
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-sleep 8 
-
-./${filename} localhost 1523 $db 0 10 &> ${filename}.result
-./${filename} localhost 1523 $db 0 100 &> ${filename}.result
+./${filename} localhost 1523 $db 0 10 > ${filename}.result
+#./${filename} localhost 1523 $db 0 100 &> ${filename}.result
 #./${filename} localhost 1523 $db 0 1000 &> ${filename}.result
 
-if [ `grep '10' ${filename}.result |wc -l` -ne 0 ]
+if [ `tail -1 ${filename}.result | grep "list size" ${filename}.result | awk -F'=' '{print $2}'` -ne 0 ]
 then
 	echo 'PASS2 '$filename'' >> $CDC_TEST/result
 else

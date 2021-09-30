@@ -64,7 +64,7 @@ main (int argc, char *argv[])
 	}
       if (ret == CUBRID_LOG_SUCCESS)
 	{
-          printf ("\t%d\n", list_size);
+          printf ("\tlist size = %d\n", list_size);
           
 	  sleep (1);
 	}

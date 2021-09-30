@@ -1,10 +1,10 @@
-csql -u dba api05db -c " CREATE USER joo GROUPS dba"
+csql -u dba api18db -c " CREATE USER joo GROUPS dba"
 
-csql -u dba api05db -c "drop table if exists api04a"
-csql -u joo api05db -c "drop table if exists api04b"
-csql -u dba api05db -c "drop table if exists api04c"
+csql -u dba api18db -c "drop table if exists api18a"
+csql -u joo api18db -c "drop table if exists api18b"
+csql -u dba api18db -c "drop table if exists api18c"
 
 sleep 1
-csql -u public api05db -c "create table api04a (a int)"
-csql -u joo api05db -c "create table api04b (a int)"
-csql -u dba api05db -c "create table api04c (a int)"
+csql -u public api18db -c "create table api18a (a int)"
+csql -u joo api18db -c "create table api18b (a int)"
+csql -u dba api18db -c "create table api18c (a int)"
