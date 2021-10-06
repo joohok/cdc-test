@@ -52,7 +52,7 @@ else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "cond_column_index: 16" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "cond_column_index : 15" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else

@@ -48,7 +48,7 @@ main (int argc, char *argv[])
     }
 */
 
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba","") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -97,11 +97,13 @@ main (int argc, char *argv[])
                 case 0: 
                   break;
 		case 1:
-		  printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
+                  if (data_item->dml.dml_type == 2)
+                  {
 		  printf ("\tclassoid          : %lld\n", data_item->dml.classoid);
+                  printf ("\tnum_cond_column : %d\n", data_item->dml.num_cond_column);
                   printf ("DML SUCCESS \n");
 		  printf ("\n");
-
+                  }
 		  break;
 
 		case 2:

@@ -68,6 +68,7 @@ main (int argc, char *argv[])
       if (ret == CUBRID_LOG_SUCCESS)
 	{
 	  log_item = log_item_list;
+          printf ("extract\n");
 
 	  for (j = 0; j < list_size; j++)
 	    {

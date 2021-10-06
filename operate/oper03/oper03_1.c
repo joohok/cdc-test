@@ -28,6 +28,8 @@ main (int argc, char *argv[])
   int insert_count = 0;
   int interval = 1;
 
+  start_time = time(NULL);
+
   if (argc != 5)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
@@ -48,7 +50,7 @@ main (int argc, char *argv[])
     }
 */
 
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba","") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);

@@ -34,7 +34,13 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  if (cubrid_log_set_max_log_item (500) != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_set_max_log_item (1000) != CUBRID_LOG_SUCCESS)
+    {
+      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
+      exit (-1);
+    }
+
+  if (cubrid_log_set_extraction_timeout (360) != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -48,7 +54,7 @@ main (int argc, char *argv[])
     }
 */
 
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba","") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -62,12 +68,13 @@ main (int argc, char *argv[])
 
   for (i = 0; i < 1000; i++)
     {
+      printf ("before extract\n");
       if (cubrid_log_extract (&next_lsa, &log_item_list, &list_size) != CUBRID_LOG_SUCCESS)
 	{
 	  printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
 	  exit (-1);
 	}
-
+      printf ("after extract\n");
       sleep (1);
     }
 

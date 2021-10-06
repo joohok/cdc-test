@@ -45,14 +45,14 @@ else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[0]: 10" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[0]: 10" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
 	echo 'FAIL03 '$filename'' >> $CDC_TEST/result
 fi
 
-if [ `grep "changed_column_data[1]: aa " ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "changed_column_data\[1]: aa " ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else

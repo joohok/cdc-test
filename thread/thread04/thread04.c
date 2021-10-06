@@ -23,6 +23,7 @@ main (int argc, char *argv[])
 
   int list_size = 0;
   int i, j, k;
+  int error; 
 
   int dml_count = 0;
   int insert_count = 0;
@@ -48,19 +49,23 @@ main (int argc, char *argv[])
     }
 */
 
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba","") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
 
-  if (cubrid_log_find_lsa (&start_time, &next_lsa) != CUBRID_LOG_SUCCESS)
+  printf ("####################################before find lsa () ! #####################\n");
+  if ((error = cubrid_log_find_lsa (&start_time, &next_lsa)) != CUBRID_LOG_SUCCESS)
     {
-      printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
+      printf ("[ERROR] %s:%d %d\n", __FILE__, __LINE__, error);
       exit (-1);
     }
  
+  printf ("####################################after find lsa () ! #####################\n");
   sleep (5);
+
+  printf ("####################################before finalize () ! #####################\n");
 
   if (cubrid_log_finalize() != CUBRID_LOG_SUCCESS)
     {
@@ -68,5 +73,6 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
+  printf ("#################################### after finalize () ! #####################\n");
   return 0;
 }

@@ -13,7 +13,7 @@ class OID_Sample
       String passwd = "";
 
       // SQL statement to get OID values
-      String sql = "SELECT class_of from _db_class where class_name='serial01' ";
+      String sql = "SELECT class_of from _db_class where class_name='serial01a' ";
        
       // Declaring variables for Connection and Statement
       Connection con = null;

@@ -40,13 +40,13 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  if (cubrid_log_connect_server (host, port, dbname, "", "") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba", "") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
 
-  for (i = 0; i < 10; i++)
+  for (i = 0; i < 3; i++)
     {
       if (cubrid_log_extract (&next_lsa, &log_item_list, &list_size) != CUBRID_LOG_SUCCESS)
 	{

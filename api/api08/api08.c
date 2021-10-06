@@ -12,7 +12,7 @@ main (int argc, char *argv[])
   int extraction_timeout;
   int ret; 
 
-  if (argc != 5)
+  if (argc != 4)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);

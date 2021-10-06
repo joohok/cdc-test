@@ -3,7 +3,7 @@ set -x
 
 db=api21db
 filename=api21
-tracelog=~/cdc-tests/tracelog
+tracelog=~/cdc-tests/tracelog.err
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
@@ -16,9 +16,12 @@ cubrid server start $db
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db . -1 10 &> ${filename}.result
-./${filename} localhost 1523 $db $tracelog -1 10 &> ${filename}.result
-./${filename} localhost 1523 $db $tracelog 1 10 &>> ${filename}.result
+./${filename} localhost 1523 $db . -1 10 
+./${filename} localhost 1523 $db $tracelog -1 10 
+./${filename} localhost 1523 $db $tracelog 1 10 
+#./${filename} localhost 1523 $db . -1 10 &> ${filename}.result
+#./${filename} localhost 1523 $db $tracelog -1 10 &>> ${filename}.result
+#./${filename} localhost 1523 $db $tracelog 1 10 &>> ${filename}.result
 #./${filename} localhost 1523 $db 1629775990 
 
 if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 2 ]

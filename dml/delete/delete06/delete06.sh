@@ -43,7 +43,7 @@ fi
 
 #03. data check. 
  
-if [ `grep "num_changed_column: 2" ${filename}.result |wc -l` -eq ${count} ]
+if [ `grep "num_cond_column: 2" ${filename}.result |wc -l` -eq ${count} ]
 then
 	echo 'PASS03 '$filename'' >> $CDC_TEST/result
 else
@@ -68,7 +68,7 @@ mv $CUBRID/conf/cubrid.conf_ori $CUBRID/conf/cubrid.conf
 rm -rf lob/
 
 rm $filename
-rm ${filename}.result
+#rm ${filename}.result
 rm cubrid_tracelog.err
 
 

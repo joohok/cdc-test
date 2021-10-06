@@ -10,30 +10,45 @@ serial=$CDC_TEST/ddl/serial
 trigger=$CDC_TEST/ddl/trigger
 function=$CDC_TEST/ddl/procedure
 proceure=$CDC_TEST/ddl/procedure
+operate=$CDC_TEST/operate
+supplement=$CDC_TEST/supp
+thread=$CDC_TEST/thread
 
-api_cnt=6
-insert_cnt=5
-delete_cnt=0
+api_cnt=23
+insert_cnt=4
+delete_cnt=6
 update_cnt=6
-table_cnt=5
-index_cnt=3
-trigger_cnt=4
-serial_cnt=5
-pocedure_cnt=2
+table_cnt=1
+index_cnt=1
+trigger_cnt=1
+serial_cnt=1
+view_cnt=1
+procedure_cnt=1
+operate_cnt=7
+supp_cnt=20
+thread_cnt=5
 
-rm -rf CUBRID-11.1.0* &&
-echo -e "y\ny\ny\n" | sh ~/cdc-build/*.sh && 
-sh /home/joohok/.cubrid.sh
+#rm -rf CUBRID-11.1.0* &&
+#echo -e "y\ny\ny\n" | sh ~/cdc-build/*.sh && 
+#sh /home/joohok/.cubrid.sh
 
-cd $api
+#cd $api
 
 #for [] 
 #api0#.sh
-for ((i=1;i<=${api_cnt};i++))
-do
-  cd $api/api0${i}
-  sh api0${i}.sh
-done
+
+
+#for ((i=1;i<=${api_cnt};i++))
+#do
+#  if [[ $i -lt 10 ]]
+#  then 
+#    cd $api/api0${i}
+#    sh api0${i}.sh
+#  else
+#    cd $api/api${i}
+#    sh api${i}.sh
+#  fi 
+#done
 
 for ((i=1;i<=${insert_cnt};i++))
 do
@@ -55,38 +70,50 @@ done
 
 for ((i=1;i<=${table_cnt};i++))
 do
-  cd $table/table0${i}
-  sh table0${i}.sh
+  cd $table
+  sh table01.sh
 done
 
 for ((i=1;i<=${index_cnt};i++))
 do
-  cd $index/index0${i}
-  sh index0${i}.sh
+  cd $index
+  sh index01.sh
 done
 
 for ((i=1;i<=${view_cnt};i++))
 do
-  cd $view/view0${i}
-  sh view0${i}.sh
+  cd $view
+  sh view01.sh
 done
 
 for ((i=1;i<=${serial_cnt};i++))
 do
-  cd $serial/serial0${i}
-  sh serial0${i}.sh
+  cd $serial
+  sh serial01.sh
 done
 
 for ((i=1;i<=${trigger_cnt};i++))
 do
-  cd $trigger/trigger0${i}
-  sh trigger0${i}.sh
+  cd $trigger
+  sh trigger04.sh
 done
 
 for ((i=1;i<=${procedure_cnt};i++))
 do
-  cd $procedure/procedure0${i}
-  sh procedure0${i}.sh
+  cd $procedure
+  sh procedure02.sh
+done
+
+for ((i=1;i<=${operate_cnt};i++))
+do
+  cd $operate/oper0${i}
+  sh oper0${i}.sh
+done
+
+for ((i=1;i<=${thread_cnt};i++))
+do
+  cd $thread/thread0${i}
+  sh thread0${i}.sh
 done
 
 if [ `grep "FAIL" ${CDC_TEST}/result |wc -l` -eq 0 ]

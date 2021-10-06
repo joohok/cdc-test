@@ -70,7 +70,7 @@ mv $CUBRID/conf/cubrid.conf_ori $CUBRID/conf/cubrid.conf
 rm -rf lob/
 
 rm $filename
-rm ${filename}.result
+#rm ${filename}.result
 rm cubrid_tracelog.err
 rm classoid.txt
 

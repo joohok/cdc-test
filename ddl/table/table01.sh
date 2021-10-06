@@ -7,13 +7,15 @@ statement="create table table01 (a int)"
 statement2="rename table table01 as table01a"
 statement3="alter table table01a add column b int"
 statement4="truncate table01a"
-statement5="DROP TABLE table01a"
+statement5="drop table table01a"
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
+echo "cdc_logging_debug=1" >>$CUBRID/conf/cubrid.conf
 echo "supplemental_log=1" >>$CUBRID/conf/cubrid.conf
 cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 
+cubrid broker start 
 cubrid server start $db 
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
@@ -39,7 +41,7 @@ else
 fi
 
 #02 classoid check 
-if [ `grep "$classoid" ${filename}.result |wc -l` -eq 4 ]
+if [ `grep "$classoid" ${filename}.result |wc -l` -eq 5 ]
 then
 	echo 'PASS02 '$filename'' >> $CDC_TEST/result
 else
@@ -88,6 +90,7 @@ else
 fi
 
 cubrid server stop $db 
+cubrid broker stop 
 
 cubrid deletedb $db 
 

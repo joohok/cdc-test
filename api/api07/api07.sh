@@ -10,6 +10,7 @@ cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 
 cubrid server start $db 
 
+csql -u dba $db -c 'create user joo groups dba;'
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
 ./${filename} localhost 1523 $db > api07.result

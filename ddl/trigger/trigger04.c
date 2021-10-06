@@ -50,7 +50,7 @@ main (int argc, char *argv[])
     }
 */
 
-  if (cubrid_log_connect_server (host, port, dbname, "123", "123") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba", "") != CUBRID_LOG_SUCCESS)
     {
       printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
       exit (-1);

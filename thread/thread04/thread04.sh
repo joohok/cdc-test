@@ -27,8 +27,10 @@ do
   csql -u dba $db -c "$statement2" &> /dev/null
 done 
 
-./${filename} localhost 1523 $db 0 &> ${filename}.result
-#./${filename} localhost 1523 $db 0 
+#sleep 8
+
+#./${filename} localhost 1523 $db 0 &> ${filename}.result
+./${filename} localhost 1523 $db 0 
 
 cubrid server stop $db &>> ${filename}.result
 
@@ -62,7 +64,7 @@ mv $CUBRID/conf/cubrid.conf_ori $CUBRID/conf/cubrid.conf
 rm -rf lob/
 
 rm $filename
-rm ${filename}.result
+#rm ${filename}.result
 rm cubrid_tracelog.err
 rm csql.err
 

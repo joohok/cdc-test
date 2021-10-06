@@ -1219,3 +1219,210 @@ boot_restart_client: register client { type 2 db api14db user dba password (null
 
 Time: 09/27/21 05:54:07.360 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
 qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:44.504 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:44.504 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:44.504 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63400) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:44.504 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63400 }
+
+Time: 10/02/21 19:53:44.523 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:44.523 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:44.523 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63401) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:44.524 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63401 }
+
+Time: 10/02/21 19:53:44.541 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:44.541 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:44.541 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63402) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:44.541 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63402 }
+
+Time: 10/02/21 19:53:45.587 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.587 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.587 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63404) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.587 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63404 }
+
+Time: 10/02/21 19:53:45.613 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.613 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.614 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63405) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.614 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63405 }
+
+Time: 10/02/21 19:53:45.637 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.637 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.637 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63406) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.637 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63406 }
+
+Time: 10/02/21 19:53:45.663 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.663 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.663 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63408) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.663 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63408 }
+
+Time: 10/02/21 19:53:45.670 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.682 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.682 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.682 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63409) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.683 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63409 }
+
+Time: 10/02/21 19:53:45.689 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.701 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.701 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.701 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63410) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.701 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63410 }
+
+Time: 10/02/21 19:53:45.708 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.719 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.720 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.720 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63411) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.720 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63411 }
+
+Time: 10/02/21 19:53:45.727 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.738 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.738 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.739 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63412) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.739 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63412 }
+
+Time: 10/02/21 19:53:45.746 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.758 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.758 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.758 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63413) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.758 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63413 }
+
+Time: 10/02/21 19:53:45.765 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.776 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.776 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.777 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63414) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.777 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63414 }
+
+Time: 10/02/21 19:53:45.783 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.795 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.795 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.795 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63415) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.796 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63415 }
+
+Time: 10/02/21 19:53:45.802 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT
+
+Time: 10/02/21 19:53:45.814 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1692
+trying to connect 'api14db@localhost'
+
+Time: 10/02/21 19:53:45.814 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1714
+ping server with handshake
+
+Time: 10/02/21 19:53:45.814 - NOTIFICATION *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1130  CODE = -971, Tran = -1, EID = 1
+Program 'csql' (pid 63416) connected to database server 'api14db' on the host 'localhost' (port 1523).
+
+Time: 10/02/21 19:53:45.814 - DEBUG *** file /home/joohok/cubrid/src/transaction/boot_cl.c, line 1180
+boot_restart_client: register client { type 2 db api14db user dba password (null) program csql login joohok host JoohoK2 pid 63416 }
+
+Time: 10/02/21 19:53:45.820 - DEBUG *** file /home/joohok/cubrid/src/communication/network_interface_cl.c, line 6700
+qmgr_execute_query requested: EXECUTION_WITH_AUTOCOMMIT

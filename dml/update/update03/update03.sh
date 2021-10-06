@@ -3,7 +3,7 @@ set -x
 
 db=update03db
 filename=update03
-count=1
+count=1000
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
@@ -16,7 +16,11 @@ cubrid broker start &&
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
 csql -u dba $db -i update03-create.sql
-csql -u dba $db -i update03-insert.sql
+
+for((i=0;i<${count};i++))
+do
+  csql -u dba $db -i update03-insert.sql
+done
 
 csql -u dba $db -i update03-update.sql
 

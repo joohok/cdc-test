@@ -1,5 +1,5 @@
 insert into update01 values (
-  10,
+  1,
   10.1,
   10.1010,
   'aa',

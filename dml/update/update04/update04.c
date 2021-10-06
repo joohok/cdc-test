@@ -48,7 +48,7 @@ main (int argc, char *argv[])
     }
 */
 
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba","") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -75,10 +75,6 @@ main (int argc, char *argv[])
           if (log_item->data_item_type == 1)
           {
             dml_count++;
-            if(log_item->data_item.dml.dml_type == 0)
-            {
-              insert_count ++;
-            }
           }
 
 	  if (j % interval == 0)
@@ -97,26 +93,22 @@ main (int argc, char *argv[])
                 case 0: 
                   break;
 		case 1:
+                  if (data_item->dml.dml_type == 1)
+                  {
 		  printf ("\tdml_type          : %d\n", data_item->dml.dml_type);
 		  printf ("\tclassoid          : %lld\n", data_item->dml.classoid);
 		  printf ("\tnum_changed_column: %d\n", data_item->dml.num_changed_column);
-		  printf ("\tchanged_column_data[0]: %d\n", (int)*data_item->dml.changed_column_data[0]);
-		  printf ("\tchanged_column_data[1]: %s\n", data_item->dml.changed_column_data[1]);
+		  printf ("\tnum_cond_column: %d\n", data_item->dml.num_cond_column);
+
                   printf ("DML SUCCESS \n");
 		  printf ("\n");
-
+                  }
 		  break;
 
 		case 2:
-		  printf ("\tdcl_type          : %d\n", data_item->dcl.dcl_type);
-		  printf ("\ttimestamp         : %ld\n", data_item->dcl.timestamp);
-		  printf ("\n");
-
 		  break;
 
 		case 3:
-		  printf ("\ttimestamp         : %ld\n", data_item->timer.timestamp);
-
 		  break;
 
 		default:
@@ -125,12 +117,11 @@ main (int argc, char *argv[])
 	    }
 	  log_item = log_item->next;
 	}
-
+      cubrid_log_clear_log_item(log_item_list);
       sleep (1);
     }
 
   printf("DML COUNT : %d\n", dml_count);
-  printf("INSERT COUNT : %d\n", insert_count);
 
   cubrid_log_finalize ();
 

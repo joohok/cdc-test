@@ -13,6 +13,7 @@ cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 echo "supplemental_log=1" >>$CUBRID/conf/cubrid.conf
 cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 
+cubrid broker start 
 cubrid server start $db 
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
@@ -75,6 +76,7 @@ else
 fi
 
 cubrid server stop $db 
+cubrid broker stop 
 
 cubrid deletedb $db 
 

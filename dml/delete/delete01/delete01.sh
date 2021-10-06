@@ -3,10 +3,11 @@ set -x
 
 db=delete01db
 filename=delete01
-count=5
+count=1000
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
+#echo "cdc_logging_debug=1" >>$CUBRID/conf/cubrid.conf
 echo "supplemental_log=1" >>$CUBRID/conf/cubrid.conf
 cubrid createdb $db en_US --db-volume-size=128M --log-volume-size=128M
 

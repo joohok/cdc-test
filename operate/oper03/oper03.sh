@@ -31,10 +31,13 @@ gcc -g -o ${filename4} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename4}.c
 ./${filename1} localhost 1523 $db 0 &> lsa.result &&
 lsa=`cat lsa.result`
 
+#./${filename2} localhost 1523 $db $lsa 
+#./${filename3} localhost 1523 $db $lsa 
+#./${filename4} localhost 1523 $db $lsa 
+
 ./${filename2} localhost 1523 $db $lsa &>>  ${filename}.result
 ./${filename3} localhost 1523 $db $lsa &>>  ${filename}.result
 ./${filename4} localhost 1523 $db $lsa &>>  ${filename}.result
-#./${filename} localhost 1523 $db 0 
 
 #4 error check 
 if [ `grep "$lsa" ${filename}.result |wc -l` -eq 0 ]

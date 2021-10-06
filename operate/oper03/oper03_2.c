@@ -38,23 +38,40 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  if (cubrid_log_connect_server (host, port, dbname, "","") != CUBRID_LOG_SUCCESS)
+  if (cubrid_log_connect_server (host, port, dbname, "dba","") != CUBRID_LOG_SUCCESS)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
 
-  for (i = 0; i < 10; i++)
+  for (i = 0; i < 2; i++)
     {
       if (cubrid_log_extract (&next_lsa, &log_item_list, &list_size) != CUBRID_LOG_SUCCESS)
 	{
 	  printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
 	  exit (-1);
 	}
+
+      log_item = log_item_list;
+
+      for (j = 0; j < list_size; j++)
+	{
+          if (log_item->data_item_type == 1)
+          {
+            if(log_item->data_item.dml.dml_type == 0)
+            {
+              data_item = &log_item->data_item;
+
+              printf ("%d\n", (int)*data_item->dml.changed_column_data[0]);
+            }
+          }
+          log_item = log_item->next;
+        }
+
+      printf ("%lld\n",next_lsa);
       sleep (1);
     }
 
-  printf ("%lld\n",next_lsa);
 
   cubrid_log_finalize ();
 

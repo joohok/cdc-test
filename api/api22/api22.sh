@@ -15,8 +15,8 @@ cubrid server start $db
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 0 &> ${filename}.result
-#./${filename} localhost 1523 $db 0 
+#./${filename} localhost 1523 $db 0 &> ${filename}.result
+./${filename} 127.0.0.1 15123 $db 0 
 
 if [ `grep 'ERROR' ${filename}.result |wc -l` -eq 1 ]
 then
