@@ -3,7 +3,7 @@ set -x
 
 db=api21db
 filename=api21
-tracelog=~/cdc-tests/tracelog.err
+tracelog=./tracelog.err
 
 cp $CUBRID/conf/cubrid.conf $CUBRID/conf/cubrid.conf_ori
 
@@ -16,13 +16,9 @@ cubrid server start $db
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db . -1 10 
-./${filename} localhost 1523 $db $tracelog -1 10 
-./${filename} localhost 1523 $db $tracelog 1 10 
-#./${filename} localhost 1523 $db . -1 10 &> ${filename}.result
-#./${filename} localhost 1523 $db $tracelog -1 10 &>> ${filename}.result
-#./${filename} localhost 1523 $db $tracelog 1 10 &>> ${filename}.result
-#./${filename} localhost 1523 $db 1629775990 
+./${filename}  . -1 10 &> ${filename}.result
+./${filename}  $tracelog -1 10 &>> ${filename}.result
+./${filename}  $tracelog 1 10 &>> ${filename}.result
 
 if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 2 ]
 then
@@ -33,7 +29,7 @@ fi
 
 FILESIZE=$(stat -c%s "$tracelog")
 
-if [$FILESIZE -eq 10485760]
+if [ $FILESIZE -eq 10485760]
 then
 	echo 'PASS '$filename'' >> $CDC_TEST/result
 else

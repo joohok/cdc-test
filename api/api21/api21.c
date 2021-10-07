@@ -17,8 +17,6 @@ main (int argc, char *argv[])
       printf ("[FAIL] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-  
-  cubrid_log_set_max_log_item (-1);
 
   printf ("[SUCCESS] %s\n", __FILE__);
 
