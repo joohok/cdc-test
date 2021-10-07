@@ -13,10 +13,8 @@ cubrid server start $db
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} localhost 1523 $db 
-./${filename} localhost 1523 $db 
-#./${filename} localhost 1523 $db > api08.result
-#./${filename} localhost 1523 $db &>> api08.result
+./${filename} localhost 1523 $db > ${filename}.result &
+./${filename} localhost 1523 $db >> ${filename}.result
 
 if [ `grep "FAIL" api08.result |wc -l` -eq 1 ]
 then
@@ -37,3 +35,4 @@ rm -rf lob/
 rm core*
 rm $filename
 rm ${filename}.result
+rm cubrid_tracelog.err

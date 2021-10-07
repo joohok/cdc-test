@@ -9,8 +9,6 @@ main (int argc, char *argv[])
   char *host;
   char *dbname;
   int port;
-  int extraction_timeout;
-  int ret; 
 
   if (argc != 4)
     {
@@ -27,9 +25,6 @@ main (int argc, char *argv[])
       printf ("FAIL :  %s:%d\n", __FILE__, __LINE__);
       exit (-1);
     }
-
-  sleep (5);
-//  cubrid_log_finalize ();
 
   printf ("[SUCCESS] %s\n", __FILE__);
 
