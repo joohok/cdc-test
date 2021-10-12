@@ -12,7 +12,7 @@ main (int argc, char *argv[])
   int extraction_timeout;
   int ret; 
 
-  if (argc != 5)
+  if (argc != 4)
     {
       printf ("[ERROR] %s:%d\n", __FILE__, __LINE__);
       exit (-1);
@@ -28,8 +28,7 @@ main (int argc, char *argv[])
       exit (-1);
     }
 
-  sleep (5);
-//  cubrid_log_finalize ();
+  cubrid_log_finalize ();
 
   printf ("[SUCCESS] %s\n", __FILE__);
 
