@@ -1,10 +1,11 @@
 #!/bin/sh
 set -x
 
-filename=api21
-tracelog=./tracelog
+filename=api24
+tracelog=./tracelog/trace
 
-touch tracelog
+mkdir tracelog
+chmod 555 tracelog
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
@@ -20,6 +21,5 @@ fi
 
 rm $filename
 rm ${filename}.result
-rm tracelog*
-rm csql.err
+rm -rf tracelog*
 rm core*

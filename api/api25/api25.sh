@@ -1,15 +1,15 @@
 #!/bin/sh
 set -x
 
-filename=api21
+filename=api25
 tracelog=./tracelog
-
-touch tracelog
 
 gcc -g -o ${filename} -I$CUBRID/include -L$CUBRID/lib -lcubridcs ${filename}.c
 
-./${filename} $tracelog 1 10 &>> ${filename}.result
-#./${filename} $tracelog tracelog_level tracelog_size &>> ${filename}.result
+mkdir tracelog
+chmod 555 tracelog
+
+./${filename}  $tracelog 1 10 &>> ${filename}.result
 
 if [ `grep 'FAIL' ${filename}.result |wc -l` -eq 1 ]
 then
@@ -20,6 +20,5 @@ fi
 
 rm $filename
 rm ${filename}.result
-rm tracelog*
-rm csql.err
+rm -rf tracelog*
 rm core*

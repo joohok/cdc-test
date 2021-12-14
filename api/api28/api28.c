@@ -11,9 +11,26 @@ main (int argc, char *argv[])
   char *path = argv[1]; 
   int level = atoi (argv[2]);
   int filesize = atoi (argv[3]);
+
+  char *host = argv[4];
+  int port = atoi (argv[5]);
+  char *dbname = argv[6];
+
   int error = CUBRID_LOG_SUCCESS;
 
   if ((error = cubrid_log_set_tracelog (path, level, filesize)) != CUBRID_LOG_SUCCESS)
+    {
+      printf ("[FAIL] %s:%d, %d\n", __FILE__, __LINE__, error);
+      exit (-1);
+    }
+
+  if ((error = cubrid_log_connect_server (host, port, dbname, "dba", "")) != CUBRID_LOG_SUCCESS)
+    {
+      printf ("[FAIL] %s:%d, %d\n", __FILE__, __LINE__, error);
+      exit (-1);
+    }
+
+  if ((error = cubrid_log_finalize ()) != CUBRID_LOG_SUCCESS)
     {
       printf ("[FAIL] %s:%d, %d\n", __FILE__, __LINE__, error);
       exit (-1);
